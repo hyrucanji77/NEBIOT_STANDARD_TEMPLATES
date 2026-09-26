@@ -1,0 +1,45 @@
+﻿table_id,title_en,title_es,notation_group,governing_references,workbook_location
+MR-01-T01,Period-result summary — one compatible account,Resumen del resultado del período — una cuenta compatible,NET,M04.5; F-R01,ExAnte!F:I; ExPost!F:I
+MR-02-T01,Controlled document chain,Cadena documental controlada,Administrative record,S-18; CYC-05; CYC-06; P-01; P-04; FRM-01; FRM-02,Controlled evidence record
+MR-03-T01,Responsibilities during the interval,Responsabilidades durante el intervalo,Administrative record,S-04; S-05; S-21; S-22; S-25; S-26; AO-02; AO-03; FRM-07,Controlled evidence record
+MR-04-T01,Commitment-to-evidence matrix,Matriz de compromisos y evidencia,Administrative record,CYC-05; S-25; P-02; AO-06; AO-07; AO-08,Controlled evidence record
+MR-04-T02,Performance-record definitions,Definiciones de registros de desempeño,DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-05-T01,Variable and planned protocol,Variable y protocolo previsto,DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-05-T02,Execution and evidence continuation,Continuación de ejecución y evidencia,Administrative record,P-02; P-03; P-04; T-01; FRM-02,Controlled evidence record
+MR-06-T01,Spatial-input and boundary record,Registro de entradas espaciales y límites,AREA,M01; MIG-13; MIG-14,Spatial!F:I; Profile!B15
+MR-07-T01,Reference sampling and area estimates,Muestreo de referencia y estimaciones de área,SAMPLE,M01.4; M01.5; T-03,Evidence!G; Spatial!I; qualified upstream calculation / cálculo previo calificado
+MR-07-T02,Gross transitions and their interpretation,Transiciones brutas y su interpretación,AREA_CHANGE,M01; MIG-14; reporting identity / identidad de reporte,Spatial!I:J; Allocation!C:I
+MR-08-T01,Material-to-carbon record,Registro de material a carbono,MATERIAL,M02.1; M02.2; F-M01,Evidence!G; Factors!D:G; upstream organ and plot records / registros previos de órganos y parcelas
+MR-08-T02,Reused estimator and applicability,Estimador reutilizado y aplicabilidad,Administrative record,T-04; T-05; T-06; T-07; T-11; T-12; T-13; T-15; M02.1; M02.2; FRM-08,Controlled evidence record
+MR-09-T01,"Instrument, batch and data acceptance","Aceptación de instrumentos, lotes y datos",Administrative record,P-03; P-04; T-04; T-06; F-01; A-05,Controlled evidence record
+MR-09-T02,Missing-data and substitution register,Registro de datos faltantes y sustituciones,DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-10-T01,Deviation and decision register,Registro de desviaciones y decisiones,Administrative record,S-18; CYC-06; P-03; P-13; P-14; FRM-05,Controlled evidence record
+MR-10-T02,Parameter change and account effect,Cambio de parámetro y efecto contable,DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-11-T01,Retained baseline components,Componentes de línea base retenidos,BASELINE,M04.4; M04.5; P-13,Components!D=BL; ExAnte!F; ExPost!F
+MR-12-T01,Gas and source account,Cuenta por gas y fuente,GASES,M04.4; AP-07,Components!F:L; Profile!B17
+MR-12-T02,Component calculation and exclusions,Cálculo de componentes y exclusiones,COMP,M04.4; M04.5; T-08; arithmetic implementation / implementación aritmética,Components!G:I; ExAnte!F:H; ExPost!F:H
+MR-13-T01,Leakage evidence and matched account,Evidencia de fugas y cuenta comparable,LEAKAGE,F-L01; T-08,Components!D=LK; ExAnte!H; ExPost!H
+MR-14-T01,Cohort release and remaining material,Liberación por cohorte y material remanente,COHORT,M04.2; F-C03a; F-C03b; F-C04,Upstream cohort schedule / cronograma previo de cohortes; Components!F:L
+MR-15-T01,Period and stratum account,Cuenta por período y estrato,NET,M04.5; F-R01,ExAnte!F:I; ExPost!F:I
+MR-15-T02,Current interval versus cumulative history,Intervalo actual frente a historia acumulada,DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-16-T01,Uncertainty components and dependence,Componentes de incertidumbre y dependencia,UNC,F-U01; M05.1; M05.2,Qualified uncertainty calculation / cálculo calificado de incertidumbre; ExAnte!J:L; ExPost!J:L
+MR-16-T02,Conservative result and separate materiality decision,Resultado conservador y decisión separada de materialidad,BOUND,M05.3; F-A02; AP-08,ExAnte!J:L; ExPost!J:L; ExPost!O
+MR-17-T01,Residual-risk and protection account,Cuenta de riesgo residual y protección,RESERVE,F-A04; F-A05; T-17–T-20; AP-09,Qualified risk schedule / cuadro calificado de riesgo; Settlement!J; FRM-09
+MR-17-T02,"Disturbances, response and current status","Perturbaciones, respuesta y estado actual",DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-18-T01,Candidate allocation and executed posting,Asignación candidata y registro ejecutado,SETTLE,M05.4; M05.5; F-R03,Settlement!B:L; ExAnte!M:O (forecast only / solo pronóstico)
+MR-18-T02,Negative-result continuation,Continuación de resultados negativos,CARRY,F-R05a; F-R05b; F-03,CarryForward!B:J; Settlement!I
+MR-19-T01,Matched forecast and reported account,Pronóstico y cuenta reportada comparables,COMPARE,M04.5; P-13; comparison identity / identidad de comparación,Comparison!D:J
+MR-19-T02,"Subperiod allocation, only if used","Distribución por subperíodos, solo si se usa",ALLOC,F-R01; allocation identity / identidad de asignación,Allocation!C:I
+MR-20-T01,Additionality continuation record,Registro de continuidad de adicionalidad,Administrative record,S-08; AO-01; AO-02; AO-05; AO-06; AO-07; AO-08; AO-09; AO-10; AO-11; AO-12; FRM-02/AO; FRM-04/AO,Controlled evidence record
+MR-20-T02,Overlap and outcome reconciliation,Conciliación de traslapes y resultados,Administrative record,S-08; AO-01; AO-02; AO-05; AO-06; AO-07; AO-08; AO-09; AO-10; AO-11; AO-12; FRM-02/AO; FRM-04/AO,Controlled evidence record
+MR-21-T01,Commitments and observed performance,Compromisos y desempeño observado,Administrative record,S-12; S-13; S-17; AO-03; P-12; A-13; A-14; A-15,Controlled evidence record
+MR-21-T02,Complaint and remedy follow-up,Seguimiento de reclamaciones y remedios,Administrative record,S-12; S-13; S-17; AO-03; P-12; A-13; A-14; A-15,Controlled evidence record
+MR-22-T01,Indicator-to-evidence record,Registro de indicadores y evidencia,DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-23-T01,"Original, harmonized and NEBIOT account","Cuenta original, armonizada y NEBIOT",MIGRATION,MIG-05; P-13; reconciliation identity / identidad de conciliación,Migration!E:K
+MR-23-T02,Prior claims and continuing obligations,Afirmaciones previas y obligaciones continuas,Administrative record,MIG-02; MIG-04; MIG-05; MIG-06; MIG-07; MIG-08; MIG-09; MIG-12; MIG-17; AO-11,Controlled evidence record
+MR-24-T01,Conditional category calculation,Cálculo condicional de categoría,DENOM,F-R04; U-01,Results!F:H; Profile!B7:B10
+MR-24-T02,"Reported, verified and authorized status","Estado reportado, verificado y autorizado",DATA,F-01; T-01,Evidence!A:J; Components!F:L
+MR-25-T01,Findings and independent closure,Hallazgos y cierre independiente,Administrative record,S-15; S-16; S-22; P-05; P-06; P-09; P-14; A-12; A-13; FRM-03; FRM-06,Controlled evidence record
+MR-25-T02,Submission and decision references,Referencias de presentación y decisión,Administrative record,S-15; S-16; S-22; P-05; P-06; P-09; P-14; A-12; A-13; FRM-03; FRM-06,Controlled evidence record
+MR-26-T01,Evidence and annex index,Índice de evidencia y anexos,Administrative record,P-04; P-10; P-12; AO-08; CYC-06; S-18; FRM-02; FRM-06,Controlled evidence record
+MR-26-T02,Continuing actions and unresolved conditions,Acciones continuas y condiciones pendientes,Administrative record,P-04; P-10; P-12; AO-08; CYC-06; S-18; FRM-02; FRM-06,Controlled evidence record

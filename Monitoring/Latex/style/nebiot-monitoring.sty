@@ -1,0 +1,56 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{style/nebiot-monitoring}[2026/09/25 NEBIOT project documentation templates]
+\RequirePackage{iftex}
+\ifPDFTeX\PackageError{nebiot-template}{Use XeLaTeX or LuaLaTeX}{Select XeLaTeX as the compiler.}\fi
+\RequirePackage{fontspec,unicode-math}
+\setmathfont{latinmodern-math.otf}
+\setmainfont{EBGaramond-Regular.otf}[BoldFont=EBGaramond-Bold.otf,ItalicFont=EBGaramond-Italic.otf,BoldItalicFont=EBGaramond-BoldItalic.otf,Numbers=Lining]
+\setsansfont{Lato-Regular.ttf}[BoldFont=Lato-Bold.ttf,ItalicFont=Lato-Italic.ttf,BoldItalicFont=Lato-BoldItalic.ttf]
+\RequirePackage[a4paper,top=16.5mm,bottom=17.5mm,left=19mm,right=19mm,headheight=20pt,headsep=5mm,footskip=9mm]{geometry}
+\RequirePackage{xcolor,graphicx,array,tabularx,longtable,booktabs,fancyhdr,lastpage,needspace,etoolbox,ragged2e}
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{polyglossia}
+\ifnum\SpanishEdition=1\setdefaultlanguage{spanish}\else\setdefaultlanguage[variant=american]{english}\fi
+\definecolor{NEBGreen}{HTML}{215F52}
+\definecolor{NEBGold}{HTML}{A6813D}
+\definecolor{NEBInk}{HTML}{243A36}
+\definecolor{NEBGray}{HTML}{62716E}
+\definecolor{NEBLine}{HTML}{C9D5CE}
+\definecolor{NEBPale}{HTML}{F1F5F2}
+\RequirePackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=NEBGreen,urlcolor=NEBGreen,pdfauthor={Henry Arellano-Peña},pdftitle={\DocTitle\space | NEBIOT},pdfsubject={Project documentation template / NEBIOT Standard 0.8.2},pdflang={\PDFLanguage},bookmarksopen=true}
+\RequirePackage{bookmark,tocloft}
+\tocloftpagestyle{fancy}
+\setlength{\cftbeforesecskip}{2pt}
+\setlength{\cftbeforetoctitleskip}{3pt}
+\setlength{\cftaftertoctitleskip}{5pt}
+\renewcommand{\cfttoctitlefont}{\sffamily\bfseries\fontsize{12}{14}\selectfont\color{NEBGreen}}
+\renewcommand{\cftsecfont}{\sffamily\fontsize{9.5}{11.5}\selectfont}
+\renewcommand{\cftsecpagefont}{\sffamily\fontsize{9.5}{11.5}\selectfont}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\setlength{\tabcolsep}{4.9pt}\renewcommand{\arraystretch}{1.15}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\newcommand{\ENES}[2]{\ifnum\SpanishEdition=1 #2\else #1\fi}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}NEBIOT / \DocTitle}
+\fancyhead[R]{\sffamily\fontsize{8}{10}\selectfont\color{NEBGray}\LangCode\ / 1.3}
+\fancyfoot[L]{\sffamily\fontsize{7.3}{9}\selectfont\color{NEBGray}\ENES{TEMPLATE}{PLANTILLA} 1.3 / \StageKey\ / NEBIOT 0.8.2}
+\fancyfoot[R]{\sffamily\fontsize{7.3}{9}\selectfont\color{NEBGray}\ENES{Page}{Página} \thepage\ / \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}\renewcommand{\footrulewidth}{0.3pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{NEBLine}\leaders\hrule height\headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{NEBLine}\leaders\hrule height\footrulewidth\hfill}}
+\newcommand{\BlockTitle}[1]{\Needspace{24mm}\par\vspace{2mm}{\sffamily\bfseries\color{NEBGreen}\fontsize{10.5}{13}\selectfont #1\par}\vspace{1mm}}
+\newcommand{\Sheet}[3]{\clearpage\refstepcounter{section}\phantomsection\addcontentsline{toc}{section}{\protect\numberline{#1}#2}{\color{NEBGreen}\fontsize{20}{23}\selectfont #1\quad #2\par}\vspace{2mm}{\sffamily\fontsize{7.7}{10}\selectfont\color{NEBGray}[1] \ENES{Basis}{Referencia}: #3\par}\vspace{2mm}}
+\newtcolorbox{Notice}{colback=NEBPale,colframe=NEBPale,boxrule=0pt,arc=0pt,left=2mm,right=2mm,top=1.5mm,bottom=1.5mm,before skip=4pt,after skip=5pt,fontupper=\sffamily\fontsize{9}{11}\selectfont\color{NEBGreen}}
+\newcommand{\Answer}[2]{\begin{tcolorbox}[enhanced,breakable,colback=NEBPale,colframe=NEBLine,boxrule=.25pt,arc=0pt,left=2mm,right=2mm,top=2mm,bottom=2mm,height from=#1mm to 240mm,valign=top]\sffamily\fontsize{9}{11}\selectfont\color{NEBGray}#2\end{tcolorbox}}
+\newcommand{\Prompt}[1]{{\sffamily\fontsize{9}{11}\selectfont\color{NEBGray}#1\par}\vspace{1mm}}
+\newcommand{\LogoSlot}[3]{\begin{minipage}[t]{.31\linewidth}\begin{tcolorbox}[height=25mm,colback=white,colframe=NEBLine,arc=0pt,boxrule=.4pt,left=1mm,right=1mm,top=1mm,bottom=1mm]\centering{\sffamily\bfseries\fontsize{7.3}{8.8}\selectfont\color{NEBGreen}#1\par}\vspace{1mm}\expandafter\ifstrempty\expandafter{#2}{\vspace{3mm}{\sffamily\fontsize{8}{9}\selectfont\color{NEBGray}\ENES{[Insert authorized logo]}{[Insertar logotipo autorizado]}\par}\vspace{3mm}}{\IfFileExists{#2}{\includegraphics[width=.87\linewidth,height=10mm,keepaspectratio]{#2}\par}{\PackageError{nebiot-template}{Logo file not found: #2}{Upload the file or leave the logo setting empty.}}}\vspace{1mm}{\sffamily\itshape\fontsize{7.5}{9}\selectfont\color{NEBGray}#3\par}\end{tcolorbox}\end{minipage}}
+\newcommand{\ProjectMapBox}{\begin{tcolorbox}[colback=NEBPale,colframe=NEBLine,arc=0pt,boxrule=.25pt,height=36mm,valign=center]\centering\sffamily\bfseries\color{NEBGray}\ENES{[INSERT PROJECT MAP]}{[INSERTAR MAPA DEL PROYECTO]}\end{tcolorbox}}
+\setcounter{tocdepth}{1}
+\emergencystretch=2em
+
+\setlength{\cftsecnumwidth}{3.5em}
+
+\newcommand{\ReportSection}[3]{\Sheet{#1}{#2}{#3}\label{mr:#1}}
+\newcommand{\BasisNote}[1]{\par{\sffamily\fontsize{8.2}{10.2}\selectfont\color{NEBGray}#1\par}}

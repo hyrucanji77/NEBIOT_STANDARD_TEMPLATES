@@ -1,0 +1,27 @@
+﻿MR_section,title_en,title_es,NEBIOT_0.8.2_references,PD_1.2_sections,EA_1.2_sections,EP_1.2_sections
+01,Monitoring period and results overview,Período de monitoreo y resumen de resultados,P-01; P-02; P-04; P-11; U-01; FRM-02,01; 12,01; 07,01; 07; 08
+02,"Controlled PD, forecast and outcome records","Registros controlados del PD, pronóstico y resultados",S-18; CYC-05; CYC-06; P-01; P-04; FRM-01; FRM-02,01; 14; 15; 17; A,01; 11,01; 12
+03,"Responsible parties, rights and access","Responsables, derechos y acceso",S-04; S-05; S-21; S-22; S-25; S-26; AO-02; AO-03; FRM-07,02,11,01; 10
+04,Implementation against the PD,Implementación frente al PD,CYC-05; S-25; P-02; AO-06; AO-07; AO-08,04; 13,04; 10,04; 10
+05,Monitoring plan: intended versus performed,Plan de monitoreo: previsto frente a ejecutado,P-02; P-03; P-04; T-01; FRM-02,14; 15,02; 08,02
+06,Spatial scope and monitoring maps,Alcance espacial y mapas de monitoreo,S-03; S-06; AO-09; P-04; MIG-13; MIG-14; FRM-04/M,03; 08,02,02; 11
+07,NEB001: vegetation identity and change,NEB001: identidad y cambio de vegetación,T-02; T-03; T-06; T-07; T-21; T-22; M01.4; M01.5; F-F10; MIG-14,05; 14,02; 06,02
+08,"NEB002: material, carbon and model evidence","NEB002: evidencia material, carbono y modelos",T-04; T-05; T-06; T-07; T-11; T-12; T-13; T-15; M02.1; M02.2; FRM-08,05; 09; 14,02; 06,02; 06
+09,"Quality control, custody and missing observations","Control de calidad, custodia y observaciones faltantes",P-03; P-04; T-04; T-06; F-01; A-05,05; 14; 17,02; 11,02; 12
+10,"Deviations, corrections and parameter changes","Desviaciones, correcciones y cambios de parámetros",S-18; CYC-06; P-03; P-13; P-14; FRM-05,14; 15; 16,01; 08; 11,02; 03; 09; 12
+11,Counterfactual for the monitored interval,Contrafactual del intervalo monitoreado,S-07; S-08; S-18; AO-05; F-B01; F-B02; P-13; MIG-05,06; 07,03,03
+12,Actual project emissions and removals,Emisiones y remociones reales del proyecto,M04.4; M04.5; F-C01; F-C02; T-08; AP-07; P-02,09; 13; 14,04; 06,04; 06
+13,Offsite activity and attributable leakage,Actividad externa y fugas atribuibles,S-09; F-L01; T-08; T-16; P-03; P-04,06; 09; 14,05,05
+14,"Stocks, delayed releases and cohort continuity","Existencias, liberaciones diferidas y continuidad de cohortes",M04.1; M04.2; M04.3; F-C03a; F-C03b; F-C04; T-08; MIG-07,09; 10,06,06
+15,Signed ex-post account and reporting totals,Cuenta ex post con signo y totales reportados,M04.5; F-R01; F-R03; P-04; P-13; FRM-02,09; A; CALC,07,07
+16,"Uncertainty, conservativeness and materiality","Incertidumbre, conservadurismo y materialidad",M05.1; M05.2; M05.3; F-U01; F-A01; F-A02; T-14; T-16; P-13; AP-08; AP-10,10; 15,08,07; CALC
+17,"Risk, reserve and disturbance response","Riesgo, reserva y respuesta a perturbaciones",T-17; T-18; T-19; T-20; F-A03; F-A04; F-A05; P-03; P-10; AP-09; FRM-09,10; 13,08,08
+18,"Settlement, negative results and continuity","Liquidación, resultados negativos y continuidad",F-03; M05.4; M05.5; F-R03; F-R05a; F-R05b; FRM-02/C; FRM-09; AP-09,10; 15,07; 08,08
+19,Comparison with the frozen ex-ante forecast,Comparación con el pronóstico ex ante fijado,S-18; P-13; P-14; M04.5; F-R01,09; 10; A,01; 07; 08,09
+20,Continuing additionality and overlapping initiatives,Adicionalidad continua e iniciativas superpuestas,S-08; AO-01; AO-02; AO-05; AO-06; AO-07; AO-08; AO-09; AO-10; AO-11; AO-12; FRM-02/AO; FRM-04/AO,07; 08,10,10; 11
+21,"Participation, safeguards and benefit-sharing","Participación, salvaguardas y reparto de beneficios",S-12; S-13; S-17; AO-03; P-12; A-13; A-14; A-15,11; 13,10,10
+22,"Ecosystem, biodiversity and social outcomes","Resultados ecosistémicos, de biodiversidad y sociales",M06.1; T-10; T-22; S-02; P-11; U-01; U-02,04; 11; 12; 14,10,10
+23,Migration and prior claim continuity,Migración y continuidad de afirmaciones previas,MIG-02; MIG-04; MIG-05; MIG-06; MIG-07; MIG-08; MIG-09; MIG-12; MIG-17; AO-11,08; A,09,11
+24,NVEU request and claim boundaries,Solicitud de NVEU y límites de afirmaciones,U-01; U-02; U-03; U-05; U-07; F-R04; P-09; P-11; FRM-06,12; 15; 18,07; 10,08; 12
+25,"Findings, submission and separate decisions","Hallazgos, presentación y decisiones separadas",S-15; S-16; S-22; P-05; P-06; P-09; P-14; A-12; A-13; FRM-03; FRM-06,16; 18,11,12
+26,Evidence handover and next-period actions,Entrega de evidencia y acciones del período siguiente,P-04; P-10; P-12; AO-08; CYC-06; S-18; FRM-02; FRM-06,14; 17; 18,11,12

@@ -1,0 +1,84 @@
+﻿template,section,title_en,title_es,standard_version,references
+NIP,01,Project identity and concept submission,Identidad del proyecto y presentación del concepto,0.8.2,CYC-01; CYC-02; S-03; S-04; S-25; S-26; FRM-07
+NIP,02,Preliminary territory and proposed activities,Territorio preliminar y actividades propuestas,0.8.2,CYC-02; S-03; S-06; S-07; AO-01
+NIP,03,Available evidence and methodological fit,Evidencia disponible y adecuación metodológica,0.8.2,CYC-02; S-01; S-02; T-11; T-13; MIG-12; MIG-13; FRM-08
+NIP,04,"Rights, safeguards and intersecting initiatives","Derechos, salvaguardas e iniciativas superpuestas",0.8.2,S-04; S-05; S-12; S-13; AO-01; AO-02; AO-04; AO-10; FRM-04/AO
+NIP,05,Indicative outcomes and prefeasibility scope,Resultados indicativos y alcance de prefactibilidad,0.8.2,CYC-02; S-08; S-09; S-11; T-10; U-01; FRM-05
+NIP,06,"Evidence, annexes and references","Evidencia, anexos y referencias",0.8.2,F-01; S-17; P-04; A-05
+NIP,07,"Submission, review and stage decision","Presentación, revisión y decisión de etapa",0.8.2,CYC-01; CYC-02; S-16; S-22; S-23; FRM-03; FRM-06; A-12; A-13
+Prefeasibility,01,NIP handover and study scope,Entrega NIP y alcance del estudio,0.8.2,CYC-01; CYC-03; S-18; S-25; FRM-06; FRM-07
+Prefeasibility,02,"Territory, baseline condition and spatial evidence","Territorio, condición inicial y evidencia espacial",0.8.2,S-03; S-06; S-07; MIG-13; MIG-14; FRM-04/M
+Prefeasibility,03,"Alternatives, drivers and initial additionality","Alternativas, causas y adicionalidad inicial",0.8.2,S-08; S-09; AO-05; AO-06; AO-07; AO-10; FRM-01/AO
+Prefeasibility,04,Method selection and feasibility investigation,Selección metodológica e investigación de factibilidad,0.8.2,S-01; S-02; T-11; T-12; T-13; MIG-15; MIG-16; FRM-08
+Prefeasibility,05,Indicative environmental account and sensitivity,Cuenta ambiental indicativa y sensibilidad,0.8.2,F-01; F-02; S-10; S-11; T-09; T-14; U-01; U-02
+Prefeasibility,06,"Rights, safeguards, overlap and migration screening","Derechos, salvaguardas, traslapes y revisión de migración",0.8.2,S-04; S-05; S-12; S-13; AO-01; AO-04; AO-11; MIG-02; MIG-03
+Prefeasibility,07,"Risk, resources and implementation constraints","Riesgos, recursos y restricciones de ejecución",0.8.2,S-11; S-13; S-25; T-17; T-18; T-20; FRM-09
+Prefeasibility,08,Feasibility work program and recommendations,Programa de factibilidad y recomendaciones,0.8.2,CYC-03; CYC-04; S-16; S-18; FRM-05
+Prefeasibility,09,"Evidence, annexes and references","Evidencia, anexos y referencias",0.8.2,F-01; S-17; P-04; A-05
+Prefeasibility,10,"Submission, review and stage decision","Presentación, revisión y decisión de etapa",0.8.2,CYC-01; CYC-03; S-16; S-22; S-23; FRM-03; FRM-06; A-12; A-13
+Feasibility,01,Feasibility mandate and prior-stage reconciliation,Mandato de factibilidad y conciliación de etapa previa,0.8.2,CYC-01; CYC-04; S-18; S-25; FRM-06
+Feasibility,02,"Authority, responsibilities and implementation rights","Facultades, responsabilidades y derechos de ejecución",0.8.2,S-04; S-05; S-12; S-25; S-26; AO-02; AO-03; FRM-07
+Feasibility,03,"Boundary, strata and qualified spatial inputs","Límite, estratos y entradas espaciales calificadas",0.8.2,S-03; S-06; T-03; MIG-13; MIG-14; MIG-15; FRM-04/M
+Feasibility,04,NEB001 characterization and classification evidence,Caracterización NEB001 y evidencia de clasificación,0.8.2,T-01; T-02; T-03; T-06; T-07; T-21; T-22; FRM-08
+Feasibility,05,NEB002 material reference and evidence pathway,Referencia material NEB002 y ruta de evidencia,0.8.2,T-04; T-05; T-06; T-07; T-11; T-12; T-13; T-15; FRM-08
+Feasibility,06,"Baseline, interventions and continuing additionality","Línea base, intervenciones y adicionalidad continuada",0.8.2,S-08; S-09; AO-05; AO-06; AO-07; AO-08; AO-10; FRM-01/AO
+Feasibility,07,"Quantification, parameters and uncertainty","Cuantificación, parámetros e incertidumbre",0.8.2,F-01; F-02; T-08; T-09; T-14; T-16; FRM-05; FRM-08
+Feasibility,08,"Leakage, risk, liabilities and reserve design","Fugas, riesgos, pasivos y diseño de reserva",0.8.2,S-10; S-11; T-17; T-18; T-19; T-20; F-03; FRM-09; FRM-02/C
+Feasibility,09,"Safeguards, consent, benefits and overlapping claims","Salvaguardas, consentimiento, beneficios y afirmaciones superpuestas",0.8.2,S-12; S-13; S-17; AO-03; AO-04; AO-09; AO-10; AO-12; FRM-04/AO
+Feasibility,10,"Implementation, monitoring and operational feasibility","Implementación, monitoreo y factibilidad operativa",0.8.2,S-25; P-02; P-03; P-04; CYC-04; CYC-06
+Feasibility,11,Project Description handover and remaining conditions,Entrega a Descripción del Proyecto y condiciones pendientes,0.8.2,CYC-04; CYC-05; S-16; S-18; MIG-01; MIG-07; U-01
+Feasibility,12,"Evidence, annexes and references","Evidencia, anexos y referencias",0.8.2,F-01; S-17; P-04; A-05
+Feasibility,13,"Submission, review and stage decision","Presentación, revisión y decisión de etapa",0.8.2,CYC-01; CYC-04; S-16; S-22; S-23; FRM-03; FRM-06; A-12; A-13
+PD,01,"Project identity, chronology and authorized scope","Identidad, cronología y alcance autorizado",0.8.2,CYC-05; S-01; S-03; S-07; S-18; FRM-01
+PD,02,"Roles, rights and authority to implement and claim","Funciones, derechos y facultad para ejecutar y declarar",0.8.2,S-04; S-05; S-21; S-22; S-25; S-26; AO-02; FRM-07
+PD,03,"Territory, boundaries and spatial support","Territorio, límites y ámbito espacial",0.8.2,S-03; S-06; T-03; AO-09; MIG-13; MIG-14; FRM-04/M
+PD,04,"Interventions, objectives and causal design","Intervenciones, objetivos y diseño causal",0.8.2,CYC-05; S-08; S-25; AO-05; AO-06; AO-07; FRM-01/AO
+PD,05,"Methods, evidence routes and calibrated models","Métodos, rutas de evidencia y modelos calibrados",0.8.2,S-01; S-02; T-01; T-04; T-06; T-07; T-11; T-12; T-13; T-15; FRM-08
+PD,06,"Baseline, drivers and applicable reference relationships","Línea base, causas y relaciones de referencia aplicables",0.8.2,S-05; S-09; AO-05; MIG-03; MIG-05; FRM-05
+PD,07,Additionality and adaptive continuation,Adicionalidad y continuidad adaptativa,0.8.2,S-08; AO-06; AO-07; AO-08; AO-10; AO-11; FRM-01/AO; FRM-02/AO
+PD,08,"Overlap, interacting initiatives and migration","Traslapes, iniciativas concurrentes y migración",0.8.2,AO-01; AO-02; AO-04; AO-09; AO-10; AO-11; AO-12; MIG-02; MIG-06; MIG-07; MIG-12; MIG-17; FRM-04/AO; FRM-04/M
+PD,09,Quantification and reproducible environmental account,Cuantificación y cuenta ambiental reproducible,0.8.2,F-01; T-05; T-08; T-09; CYC-05; FRM-02
+PD,10,"Uncertainty, materiality, risk and liability treatment","Incertidumbre, materialidad, riesgo y pasivos",0.8.2,F-02; F-03; T-14; T-16; T-17; T-18; T-19; T-20; FRM-02/C; FRM-08; FRM-09
+PD,11,"Participation, consent, safeguards and benefit-sharing","Participación, consentimiento, salvaguardas y beneficios",0.8.2,S-12; S-13; S-17; AO-03; AO-12; P-12; A-13; A-14; A-15
+PD,12,Environmental attributes and NVEU claim boundaries,Atributos ambientales y límites de afirmaciones NVEU,0.8.2,S-02; T-10; T-22; U-01; U-02; U-03; U-05; U-07
+PD,13,"Implementation plan, resources and contingencies","Plan de implementación, recursos y contingencias",0.8.2,S-11; S-13; S-25; CYC-05; P-02; FRM-07
+PD,14,Monitoring design and controlled change,Diseño de monitoreo y control de cambios,0.8.2,CYC-05; CYC-06; P-02; P-03; P-04; P-10; AO-08; FRM-02/AO
+PD,15,Application profile and parameter approvals,Perfil de aplicación y aprobación de parámetros,0.8.2,S-18; T-01; T-14; T-20; F-03; U-01; FRM-05
+PD,16,Validation package and requirement crosswalk,Paquete de validación y matriz de requisitos,0.8.2,CYC-05; S-15; S-16; S-22; P-01; P-05; P-07; P-14; A-03; A-06; A-12; FRM-03; FRM-10
+PD,17,"Evidence, annexes and references","Evidencia, anexos y referencias",0.8.2,F-01; S-17; P-04; A-05
+PD,18,"Submission, review and stage decision","Presentación, revisión y decisión de etapa",0.8.2,CYC-01; CYC-05; S-16; S-22; S-23; FRM-03; FRM-06; A-12; A-13
+NIP,A,"A. Ex-ante, ex-post and migration account attachments","A. Anexos de cuentas ex ante, ex post y migración",0.8.2,CYC-01; CYC-05; F-01; F-03; P-13; MIG-05; FRM-02; FRM-04; FRM-05
+Prefeasibility,A,"A. Ex-ante, ex-post and migration account attachments","A. Anexos de cuentas ex ante, ex post y migración",0.8.2,CYC-01; CYC-05; F-01; F-03; P-13; MIG-05; FRM-02; FRM-04; FRM-05
+Feasibility,A,"A. Ex-ante, ex-post and migration account attachments","A. Anexos de cuentas ex ante, ex post y migración",0.8.2,CYC-01; CYC-05; F-01; F-03; P-13; MIG-05; FRM-02; FRM-04; FRM-05
+PD,A,"A. Ex-ante, ex-post and migration account attachments","A. Anexos de cuentas ex ante, ex post y migración",0.8.2,CYC-01; CYC-05; F-01; F-03; P-13; MIG-05; FRM-02; FRM-04; FRM-05
+ExAnte,01,"Scope, forecast version and intended use","Alcance, versión de la proyección y uso previsto",0.8.2,CYC-01; CYC-03; CYC-04; CYC-05; S-18; U-01
+ExAnte,02,"Sources, maps and initial carbon reference","Fuentes, mapas y referencia inicial de carbono",0.8.2,T-01; T-11; T-12; T-13; T-15; MIG-13; MIG-15; FRM-08
+ExAnte,03,Baseline and driver-specific scenarios,Línea base y escenarios por impulsor,0.8.2,S-07; S-08; AO-04; AO-05; AO-07; F-B01; F-B02; F-B03a; F-B03b
+ExAnte,04,Project scenario and implementation emissions,Escenario del proyecto y emisiones de implementación,0.8.2,F-P01; F-P02; S-25; AO-06; AO-08
+ExAnte,05,Leakage and offsite counterfactual,Fugas y contrafactual fuera del proyecto,0.8.2,S-09; F-L01; T-08; T-13; FRM-04/M
+ExAnte,06,"Stocks, flows, pools and release timing","Existencias, flujos, reservorios y liberación temporal",0.8.2,M04.1; M04.2; M04.3; F-C01; F-C02; F-C03a; F-C03b; T-08
+ExAnte,07,Projected period and horizon account,Cuenta proyectada por período y horizonte,0.8.2,M04.5; F-R01; F-R03; F-R04; FRM-02
+ExAnte,08,"Uncertainty, materiality and residual risk","Incertidumbre, materialidad y riesgo residual",0.8.2,M05; F-U01; F-A01; F-A02; F-A04; T-14; T-16; T-20; F-03; FRM-05
+ExAnte,09,Migration and comparison reference,Migración y referencia de comparación,0.8.2,MIG-01; MIG-04; MIG-05; MIG-12; MIG-16; MIG-17; S-18
+ExAnte,10,Other attributes and continuing additionality,Otros atributos y adicionalidad continua,0.8.2,T-10; AO-05; AO-06; AO-08; AO-10; U-01
+ExAnte,11,"Review, handover and controlled attachments","Revisión, entrega y anexos controlados",0.8.2,CYC-01; P-01; P-05; S-18; S-22; A-12; FRM-03; FRM-06
+ExPost,01,"Period, evidence cut-off and assessment status","Período, corte de evidencia y estado de evaluación",0.8.2,P-01; P-02; CYC-06; S-18; U-01
+ExPost,02,Monitoring implementation and spatial observations,Ejecución del monitoreo y observaciones espaciales,0.8.2,P-02; P-03; P-04; T-03; AO-09; MIG-14; FRM-08
+ExPost,03,Counterfactual retained for the monitored interval,Contrafactual conservado para el intervalo monitoreado,0.8.2,S-07; S-18; P-13; F-B01; F-B02; MIG-05
+ExPost,04,Actual project account and implementation emissions,Cuenta real del proyecto y emisiones de implementación,0.8.2,P-02; P-04; F-P02; F-C01; F-C02; T-08; S-25
+ExPost,05,Observed offsite activity and attributable leakage,Actividad externa observada y fugas atribuibles,0.8.2,S-09; F-L01; P-04; T-08; T-16
+ExPost,06,"Pool transfers, delayed release and physical units","Transferencias, liberación diferida y unidades físicas",0.8.2,M04.1; M04.2; M04.4; F-C03a; F-C03b; F-C05a; F-C05b; F-C05c
+ExPost,07,Signed period account and conservative quantity,Cuenta con signo y cantidad conservadora,0.8.2,M04.5; M05; F-U01; F-A01; F-A02; F-R01; FRM-02
+ExPost,08,"Liabilities, reserve and conditional NVEU request","Pasivos, reserva y solicitud condicional de NVEU",0.8.2,F-03; F-R03; F-R04; F-R05a; F-R05b; U-01; U-07; FRM-02/C; FRM-09
+ExPost,09,Ex-ante to ex-post comparison,Comparación ex ante a ex post,0.8.2,P-13; P-14; S-18; M04.5; F-R01
+ExPost,10,"Continuing additionality, safeguards and separate outcomes","Adicionalidad continua, salvaguardas y otros resultados",0.8.2,AO-05; AO-06; AO-08; AO-10; T-10; P-04
+ExPost,11,"Migration, prior claims and evidence continuity","Migración, declaraciones previas y continuidad de evidencia",0.8.2,MIG-02; MIG-05; MIG-06; MIG-07; MIG-08; MIG-09; MIG-12; AO-11
+ExPost,12,"Evidence index, independent review and decision","Índice de evidencia, revisión independiente y decisión",0.8.2,P-05; P-06; P-09; P-12; P-14; A-12; FRM-03; FRM-06
+Migration_Reconciliation,01,"Origin, mandate and migration route","Origen, mandato y ruta de migración",0.8.2,MIG-01; MIG-02; MIG-03; S-21; S-25; FRM-04; FRM-07
+Migration_Reconciliation,02,"Spatial, temporal and measurand crosswalk","Correspondencia espacial, temporal y de magnitudes",0.8.2,MIG-03; MIG-04; MIG-13; MIG-14; P-13; AO-09
+Migration_Reconciliation,03,Method and formula correspondence,Correspondencia de métodos y fórmulas,0.8.2,MIG-03; MIG-05; T-01; F-01; F-P01; F-P02
+Migration_Reconciliation,04,"Original, harmonized and receiving quantities","Cantidades originales, armonizadas y receptoras",0.8.2,MIG-05; P-13; F-R01; F-R03; S-18
+Migration_Reconciliation,05,Historical claim status and continuing obligations,Estado histórico de declaraciones y obligaciones,0.8.2,MIG-06; MIG-07; MIG-08; U-04; U-05; F-R05a; F-R05b
+Migration_Reconciliation,06,"Forecast, monitored and verified records","Registros proyectados, monitoreados y verificados",0.8.2,P-01; P-13; P-14; MIG-04; MIG-09; U-01
+Migration_Reconciliation,07,"Additionality, overlap and safeguard continuity","Continuidad de adicionalidad, traslapes y salvaguardas",0.8.2,AO-01; AO-05; AO-08; AO-10; AO-11; AO-12; MIG-06
+Migration_Reconciliation,08,Receiving decision and monitoring handover,Decisión receptora y entrega al monitoreo,0.8.2,MIG-09; MIG-10; MIG-11; MIG-16; MIG-17; P-09; FRM-06

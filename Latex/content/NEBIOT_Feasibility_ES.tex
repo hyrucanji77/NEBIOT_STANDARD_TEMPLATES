@@ -1,0 +1,458 @@
+\thispagestyle{empty}
+{\sffamily\fontsize{9}{11}\selectfont\color{NEBGold}NEBIOT / DOCUMENTACIÓN DEL PROYECTO\par}
+\vspace{4mm}
+\begin{center}\includegraphics[width=.94\linewidth]{assets/NEBIOT-Spanish-6000px.png}\end{center}
+{\sffamily\fontsize{8}{10}\selectfont\color{NEBGray}Autoridad del programa: Nuevo Estándar Biotropical — NEBIOT S.A.S.\par}
+\vspace{5mm}
+{\fontsize{32}{36}\selectfont\color{NEBGreen}\DocTitle\par}
+\vspace{2mm}\textcolor{NEBGold}{\rule{\linewidth}{.6pt}}
+\vspace{2mm}
+{\sffamily\itshape\fontsize{11}{14}\selectfont\color{NEBGreen}FACTIBILIDAD • Diseño sustentado\par}
+\vspace{2mm}
+{\sffamily\fontsize{8.5}{11}\selectfont\color{NEBGray}Estándar de referencia: NEBIOT 0.8.2 | Edición de plantilla 1.2\par}
+\vspace{5mm}
+{\fontsize{17}{21}\selectfont\itshape\color{NEBGreen}\ProjectName\par}
+\vspace{3mm}
+{\sffamily\fontsize{9}{12}\selectfont
+\textbf{ID del proyecto:} \ProjectID\par
+\textbf{País / jurisdicción:} \ProjectJurisdiction\par
+\textbf{Versión del documento:} \ProjectVersion\par
+\textbf{Fecha de emisión:} \ProjectDate\par}
+\vspace{4mm}
+\BlockTitle{Organizaciones ejecutoras y partes interesadas}
+\expandafter\LogoSlot\expandafter{ENTIDAD EJECUTORA}{\ImplementerLogo}{\ImplementerName}\hfill
+\LogoSlot{PROPONENTE DEL PROYECTO}{\ProponentLogo}{\ProponentName}\hfill
+\LogoSlot{TITULARES / PARTES INTERESADAS}{\StakeholderLogo}{\StakeholderName}\par
+\vspace{2mm}
+{\sffamily\fontsize{8}{10}\selectfont\color{NEBGray}Use logotipos autorizados e identifique la función real de cada organización. Exhibir un logotipo no establece consentimiento, propiedad, respaldo, validación ni admisión. Retire espacios sin usar de la presentación final.\par}
+\vspace{2mm}
+{\sffamily\fontsize{7.5}{9.5}\selectfont\color{NEBGray}Se conserva la grafía SAS del logotipo; S.A.S. es la convención de puntuación utilizada en el texto.\par}
+\clearpage
+{\fontsize{23}{27}\selectfont\color{NEBGreen}Licencia y uso de esta plantilla\par}
+\vspace{5mm}
+Este documento es publicado por Nuevo Estándar Biotropical—NEBIOT S.A.S. Henry Arellano-Peña es el autor metodológico de NEB001 y NEB002. Los derechos sobre los materiales protegidos de NEBIOT permanecen en sus respectivos titulares. El uso comercial, la reproducción, la adaptación, la redistribución y el sublicenciamiento de material protegido están sujetos a la licencia aplicable o al permiso escrito específico del titular facultado para autorizarlo; los permisos de uso dentro del programa NEBIOT deberán registrarse en FRM-07 conforme a S-21. El acceso a este documento no otorga por sí mismo una licencia comercial, no transfiere titularidad, no autoriza el sublicenciamiento, no confiere admisión al programa ni autoriza la certificación o emisión de unidades ambientales. Las publicaciones de respaldo y los datos, programas informáticos e imágenes de terceros conservan sus respectivas licencias y obligaciones de atribución; no se afectan los permisos lícitos existentes ni los usos permitidos por la legislación aplicable. Los revisores independientes autorizados deberán disponer del acceso necesario para inspección, recálculo e informe conforme a S-22, sujeto a los permisos aplicables y las salvaguardas de confidencialidad.
+\BlockTitle{Instrucciones de diligenciamiento}
+Esta plantilla organiza la evidencia exigida para su etapa según el Estándar NEBIOT versión 0.8.2. No sustituye el estándar, sus métodos aplicables, el perfil aprobado ni los formularios controlados. Complete campos entre corchetes y amplíe tablas o áreas de texto. Para conceptos no aplicables, registre motivo y decisión del revisor; no los suprima silenciosamente. Identifique información desconocida como faltante, no cero. Distinga observaciones, supuestos, proyecciones, resultados verificados y NVEU autorizadas. Los requisitos se evalúan en la etapa correspondiente; campos de etapas futuras no implican cumplimiento previo.
+\BlockTitle{Referencia y alcance}
+{\sffamily\fontsize{9}{11}\selectfont [1] NEBIOT. Estándar NEBIOT, versión controlada 0.8.2. NEB-DOC-000, edición integrada. Dependencias principales: NEB-CYC-001; NEB-STD-001 y Anexo A; NEB-MTH-001/002; NEB-UNT-001; NEB-PRO-001; NEB-MIG-001; NEB-AUD-001 y NEB-FRM-001. Las referencias a cláusulas, ecuaciones, AP y FRM remiten a esa versión. Son dependencias normativas externas, no secciones faltantes de esta plantilla.}
+\vspace{2mm}
+NIP conserva el nombre Nota de Idea de proyecto. PD identifica la Descripción del Proyecto.
+\vspace{2mm}
+NEBIOT presta la evaluación técnica, diseño y monitoreo contratados. El proponente y ejecutor identificados conservan responsabilidades de ejecución según S-25; los intereses excepcionales NEBIOT siguen S-26.
+\clearpage
+{\fontsize{23}{27}\selectfont\color{NEBGreen}Control documental y contenido\par}
+\vspace{3mm}
+\BlockTitle{Registro documental}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{50.55mm} P{117.94mm}@{}}
+\toprule
+\textbf{Control} & \textbf{Registro}\\\midrule\endhead
+\rule{0pt}{7.7mm}Plantilla & Feasibility / 1.2 / ES\\\hline
+\rule{0pt}{7.7mm}Estándar de referencia & NEBIOT 0.8.2 / CYC-04\\\hline
+\rule{0pt}{7.7mm}Preparador / revisor & [Completar]\\\hline
+\rule{0pt}{7.7mm}Distribución / restricciones & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Registro de revisiones}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{31.34mm} P{37.94mm} P{95.68mm}@{}}
+\toprule
+\textbf{Versión} & \textbf{Fecha} & \textbf{Cambio y autoridad}\\\midrule\endhead
+\rule{0pt}{7.7mm}[ ] & [ ] & [ ]\\\hline
+\end{longtable}}
+{\sffamily\fontsize{9.5}{11.4}\selectfont\tableofcontents}
+\Sheet{01}{Mandato de factibilidad y conciliación de etapa previa}{CYC-01; CYC-04; S-18; S-25; FRM-06}
+\BlockTitle{Registros recibidos y cambios}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{49.49mm} P{57.74mm} P{57.74mm}@{}}
+\toprule
+\textbf{ID prefactibilidad / decisión} & \textbf{Condición, hallazgo o cambio} & \textbf{Evidencia de cierre / impacto}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Diseño seleccionado y alcance de factibilidad}
+\Prompt{Identifique actividades, ecosistema, límites del estudio, métodos considerados, atributos e investigaciones financiadas. Distinga pruebas realizadas de trabajo previsto.}
+\Answer{16.2}{[Complete la respuesta y referencias de evidencia.]}
+\BlockTitle{Criterios de decisión}
+\Prompt{Referencie perfil aprobado y criterios por caso. Registre umbrales y evidencia de aprobación; no los infiera de ejemplos.}
+\Answer{12.9}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{02}{Facultades, responsabilidades y derechos de ejecución}{S-04; S-05; S-12; S-25; S-26; AO-02; AO-03; FRM-07}
+\BlockTitle{Registro de responsabilidades y autorizaciones}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{41.24mm} P{46.19mm} P{77.54mm}@{}}
+\toprule
+\textbf{Función} & \textbf{Entidad / responsable} & \textbf{Mandato, alcance y evidencia}\\\midrule\endhead
+\rule{0pt}{7.7mm}Proponente del proyecto & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Titulares de derechos & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Entidad ejecutora & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Responsable técnico NEBIOT & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Derechos y aplicabilidad jurídica}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{51.14mm} P{62.69mm}@{}}
+\toprule
+\textbf{Derecho / obligación / instrumento} & \textbf{Titular, alcance y vigencia} & \textbf{Evidencia / asunto abierto / acción}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Conflictos, permisos y vacíos de responsabilidad}
+\Prompt{Registre acceso lícito, permisos de materiales protegidos, consentimiento aplicable e intereses excepcionales NEBIOT. Asigne ejecución, financiación, monitoreo, incidentes y reparación sin vacíos.}
+\Answer{12.9}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{03}{Límite, estratos y entradas espaciales calificadas}{S-03; S-06; T-03; MIG-13; MIG-14; MIG-15; FRM-04/M}
+\BlockTitle{Mapa del proyecto / evidencia espacial}
+\Prompt{Inserte un mapa legible. Identifique versión del límite, sistema de coordenadas, escala, fecha de observación, fuente, leyenda y restricciones de divulgación. Un mapa inicial no establece derechos ni el límite de un resultado.}
+\ProjectMapBox
+\BlockTitle{Conciliación de áreas y estratos}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T06 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ A_{i,t}=\frac{n_{i,t}a_{\mathrm{cell}}}{k_A},\qquad k_A=10^4\ \mathrm{m^2\,ha^{-1}} \]}
+n es conteo de píxeles; a\_cell es su área en m2; A es área en ha. La ruta PIXELS usa la conversión geométrica mostrada. El área directa es una entrada documentada. El cambio neto de clase no es deforestación bruta.\par
+\textbf{Base:} M01; MIG-13; MIG-14.\par
+\textbf{Libro:} Spatial!F:I; Profile!B15.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{54.44mm} P{59.39mm}@{}}
+\toprule
+\textbf{Dominio / estrato / máscara}\par {\normalfont\fontsize{8.2}{10}\selectfont $i,\ t$} & \textbf{Área, unidad y versión del límite}\par {\normalfont\fontsize{8.2}{10}\selectfont $A_{i,t},\ n_{i,t},\ a_{\mathrm{cell}}$} & \textbf{Traslapes, exclusiones y evidencia}\par {\normalfont\fontsize{8.2}{10}\selectfont $\text{mask},\ \text{scope}$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Identidad de datos, enlace temporal y evaluación independiente}
+\Prompt{Adjunte fichas de productos con bandas, unidades, ámbito de medición, fechas, transformaciones, definición de bosque, interpretación de eventos y referencia independiente. Explique entradas conservadas y reemplazadas.}
+\Answer{12.9}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{04}{Caracterización NEB001 y evidencia de clasificación}{T-01; T-02; T-03; T-06; T-07; T-21; T-22; FRM-08}
+\BlockTitle{Vegetación observada y muestreo}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T07 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ W_i=\frac{A_i}{A},\quad \widehat p_{ij}=\frac{n_{ij}}{n_i},\quad \widehat A_j=A\sum_i W_i\widehat p_{ij} \]}
+Aplicar diseño y dominio de M01.4. W\_i es peso cartográfico del estrato, no peso estimado por defecto; n\_ij y n\_i son conteos de referencia. El libro contable no ajusta este estimador previo.\par
+\textbf{Base:} M01.4; M01.5; T-03.\par
+\textbf{Libro:} Evidence!G; Spatial!I; cálculo previo calificado.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{52.79mm} P{59.39mm} P{52.79mm}@{}}
+\toprule
+\textbf{Estrato / parcela / observaciones}\par {\normalfont\fontsize{8.2}{10}\selectfont $i,\ j,\ n_i$} & \textbf{Diseño, variables y controles}\par {\normalfont\fontsize{8.2}{10}\selectfont $W_i,\ \widehat p_{ij}$} & \textbf{Evidencia, cobertura y límites}\par {\normalfont\fontsize{8.2}{10}\selectfont $\widehat A_j$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Ficha del modelo e implementación}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T08 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ x_{\ell}\;[u_{\ell}] \]}
+x\_l es la observación, entrada o salida identificada; u\_l es su unidad declarada. Registrar ecuación exacta, archivo, hoja, celda/rango, período y estado. Esta notación no prescribe un estimador.\par
+\textbf{Base:} F-01; T-01.\par
+\textbf{Libro:} Evidence!A:J; Components!F:L.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{61.14mm} P{54.44mm} P{49.49mm}@{}}
+\toprule
+\textbf{Componente / ID de ecuaciones}\par {\normalfont\fontsize{8.2}{10}\selectfont $x_{\ell}$} & \textbf{Versión, parámetros y procedencia}\par {\normalfont\fontsize{8.2}{10}\selectfont $u_{\ell},\ t$} & \textbf{Calibración / prueba independiente}\par {\normalfont\fontsize{8.2}{10}\selectfont $\text{source}(x_{\ell})$}\\\midrule\endhead
+\rule{0pt}{7.7mm}CCA y calibración a gradiente físico & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Pertenencia, reglas, inferencia y MOM & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Clasificación y transiciones temporales & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Desempeño independiente y decisión de transferencia}
+\Prompt{Informe diseño de validación, referencia, errores e incertidumbre, pruebas fallidas y dominio sustentado. Pertenencia no es probabilidad ni área. Distinga vegetación arbustiva de degradación demostrada y cambios de clase de pérdidas físicas.}
+\Answer{16.2}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{05}{Referencia material NEB002 y ruta de evidencia}{T-04; T-05; T-06; T-07; T-11; T-12; T-13; T-15; FRM-08}
+\BlockTitle{Ruta por estrato}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T09 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ x_{\ell}\;[u_{\ell}] \]}
+x\_l es la observación, entrada o salida identificada; u\_l es su unidad declarada. Registrar ecuación exacta, archivo, hoja, celda/rango, período y estado. Esta notación no prescribe un estimador.\par
+\textbf{Base:} F-01; T-01.\par
+\textbf{Libro:} Evidence!A:J; Components!F:L.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{59.39mm} P{54.44mm}@{}}
+\toprule
+\textbf{Estrato / ruta A, B o C}\par {\normalfont\fontsize{8.2}{10}\selectfont $x_{\ell}$} & \textbf{Referencia conservada o nueva}\par {\normalfont\fontsize{8.2}{10}\selectfont $u_{\ell},\ t$} & \textbf{Aplicabilidad y pruebas independientes}\par {\normalfont\fontsize{8.2}{10}\selectfont $\text{source}(x_{\ell})$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Registro de material a carbono y calibración}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T10 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ C_j=10^{-3}\sum_o V_{jo}\rho^b_{jo}f^C_{jo} \]}
+{\fontsize{9}{11}\selectfont\[ c_p=\frac{\sum_{j\in p}C_j+C_{p,\mathrm{other}}}{a_p} \]}
+V es volumen verde material en m3; rho\_b es kg secos en estufa por m3 verde; f\_C es fracción de carbono seco. C\_j está en Mg C; c\_p en Mg C/ha. El denominador a\_p está en ha. No duplicar reservorios ni mezclar convenciones de humedad.\par
+\textbf{Base:} M02.1; M02.2; F-M01.\par
+\textbf{Libro:} Evidence!G; Factors!D:G; registros previos de órganos y parcelas.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{54.44mm} P{56.09mm} P{54.44mm}@{}}
+\toprule
+\textbf{Entrada / compartimento / ecuación}\par {\normalfont\fontsize{8.2}{10}\selectfont $j,\ o,\ p$} & \textbf{Unidades, convención y evidencia}\par {\normalfont\fontsize{8.2}{10}\selectfont $V_{jo},\rho^b_{jo},\ f^C_{jo}$} & \textbf{Calibración, incertidumbre y prueba}\par {\normalfont\fontsize{8.2}{10}\selectfont $C_j,\ c_p$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Calificación y completitud de referencia}
+\Prompt{Para evidencia nueva, documente volumen, órganos disjuntos, densidad seca/verde, fracciones tisulares y controles. Para bibliotecas, aporte registros reales del modelo y pruebas de transferencia. Para productos secundarios, establezca sustento y tratamiento conservador de la cuenta completa.}
+\Answer{16.2}{[Complete la respuesta y referencias de evidencia.]}
+\begin{Notice}No se presume incremento arquitectónico universal ni techo automático de un estimador convencional. Un mapa más fino no valida independientemente sus etiquetas de carbono heredadas.\end{Notice}
+\Sheet{06}{Línea base, intervenciones y adicionalidad continuada}{S-08; S-09; AO-05; AO-06; AO-07; AO-08; AO-10; FRM-01/AO}
+\BlockTitle{Alternativas y selección de línea base}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{56.09mm} P{54.44mm} P{54.44mm}@{}}
+\toprule
+\textbf{Alternativa / causa / ámbito} & \textbf{Credibilidad, estado y evidencia} & \textbf{Selección / rechazo y sensibilidad}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Adicionalidad por intervención}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{57.74mm} P{56.09mm}@{}}
+\toprule
+\textbf{Intervención / ejecutor} & \textbf{Causa, barrera y mecanismo causal} & \textbf{Prueba, contrafáctico y evidencia}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Evaluación continuada e intervenciones previas}
+\Prompt{Referencie deberes, práctica común y pruebas financieras pertinentes. Aborde actividades existentes que afectan el contrafáctico, fecha de evidencia, indicadores de gobernanza, desencadenantes y reevaluación controlada sin reinicios oportunistas.}
+\Answer{16.2}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{07}{Cuantificación, parámetros e incertidumbre}{F-01; F-02; T-08; T-09; T-14; T-16; FRM-05; FRM-08}
+\BlockTitle{Cadena completa de cálculo}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T13 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ q_{\ell,s,t}=x_{\ell,s,t}f_{\ell,s,t} \]}
+{\fontsize{9}{11}\selectfont\[ N_{s,t}=\sum_{\ell\in\mathcal I_{s,t}}q_{\ell,s,t} \]}
+Las unidades de x y f producen t CO2e por período. I contiene componentes incluidos, sustentados y disjuntos de igual base, período y cuenta. Para masa precalculada, f=1 se ingresa explícitamente con su significado. BL y PJ son emisiones netas; LK es fuga atribuible.\par
+\textbf{Base:} M04.4; M04.5; T-08; implementación aritmética.\par
+\textbf{Libro:} Components!G:I; ExAnte!F:H; ExPost!F:H.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{49.49mm} P{65.99mm} P{49.49mm}@{}}
+\toprule
+\textbf{Resultado / ID de ecuaciones}\par {\normalfont\fontsize{8.2}{10}\selectfont $\ell,\ s,\ t$} & \textbf{Entradas, ámbito, unidades y fuente}\par {\normalfont\fontsize{8.2}{10}\selectfont $x_{\ell,s,t},\ f_{\ell,s,t}$} & \textbf{Resultado, estado y evidencia}\par {\normalfont\fontsize{8.2}{10}\selectfont $q_{\ell,s,t},\ N_{s,t}$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Presupuesto de incertidumbre y sensibilidad}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T14 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ u_Q^2=u_B^2+u_P^2+u_L^2-2\operatorname{Cov}(B,P)-2\operatorname{Cov}(B,L)+2\operatorname{Cov}(P,L) \]}
+B, P y L en esta identidad de varianza denotan estimadores de línea base, proyecto y fugas, no reserva B\_t. Incertidumbres estándar en t CO2e; varianzas y covarianzas en unidades al cuadrado. Conservar dependencia compartida y matriz válida.\par
+\textbf{Base:} F-U01; M05.1; M05.2.\par
+\textbf{Libro:} Cálculo calificado de incertidumbre; ExAnte!J:L; ExPost!J:L.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{62.69mm} P{51.14mm}@{}}
+\toprule
+\textbf{Componente / sesgo posible}\par {\normalfont\fontsize{8.2}{10}\selectfont $B,\ P,\ L$} & \textbf{Cuantificación, covarianza o límite}\par {\normalfont\fontsize{8.2}{10}\selectfont $u_B,\ u_P,\ u_L,\ \operatorname{Cov}$} & \textbf{Efecto y evidencia de aceptación}\par {\normalfont\fontsize{8.2}{10}\selectfont $u_Q^2,\ Q_t^{\mathrm{low}}$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Conciliación y decisiones de parámetros}
+\Prompt{Adjunte cálculo reproducible completo y perfil FRM-05 AP-01–AP-12. Separe observaciones, calibración, supuestos y proyecciones. Indique base de materialidad y dirección conservadora de la cuenta neta completa. Conserve resultados negativos y pruebas fallidas.}
+\Answer{16.2}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{08}{Fugas, riesgos, pasivos y diseño de reserva}{S-10; S-11; T-17; T-18; T-19; T-20; F-03; FRM-09; FRM-02/C}
+\BlockTitle{Expediente de fugas y riesgo residual}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T15 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ \widehat L_t=N_{\mathrm{PLKA,with},t}-N_{\mathrm{PLKA,without},t} \]}
+Las cuentas comparten geografía, actividades, gases e intervalos. Toda razón fuente conserva numerador/denominador explícitos, no porcentaje supuesto. Un diagnóstico con signo no autoriza automáticamente beneficio extra; rige el perfil de atribución aplicable.\par
+\textbf{Base:} F-L01; T-08.\par
+\textbf{Libro:} Components!D=LK; ExAnte!H; ExPost!H.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{57.74mm} P{56.09mm}@{}}
+\toprule
+\textbf{Fuente / exposición / horizonte}\par {\normalfont\fontsize{8.2}{10}\selectfont $t,\ \mathrm{PLKA}$} & \textbf{Evidencia, modelo o estrés}\par {\normalfont\fontsize{8.2}{10}\selectfont $N_{\mathrm{PLKA,with},t},\ N_{\mathrm{PLKA,without},t}$} & \textbf{Control, responsable y pérdida residual}\par {\normalfont\fontsize{8.2}{10}\selectfont $\widehat L_t$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Perfil de pasivos y reserva}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T16 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ Q_t^{\mathrm{eligible}}=\max(0,Q_t^{\mathrm{low}}),\quad D_t^{\mathrm{cand}}=\min(D_t,Q_t^{\mathrm{eligible}}) \]}
+{\fontsize{9}{11}\selectfont\[ Q_t^{\mathrm{base,cand}}=Q_t^{\mathrm{eligible}}-D_t^{\mathrm{cand}},\quad J_t^{\mathrm{cand}}=Q_t^{\mathrm{base,cand}}-B_t \]}
+cand distingue propuesta del libro de registro ejecutado. D\_set es liquidación real sustentada; D\_rem = D - D\_set. No reducir obligación registrada por D\_cand. Reserva requerida superior a la base candidata es déficit, no protección financiada. No se presume redondeo.\par
+\textbf{Base:} M05.4; M05.5; F-R03.\par
+\textbf{Libro:} Settlement!B:L; ExAnte!M:O (solo pronóstico).\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{57.74mm} P{54.44mm} P{52.79mm}@{}}
+\toprule
+\textbf{Concepto}\par {\normalfont\fontsize{8.2}{10}\selectfont $D_t,\ Q_t^{\mathrm{low}}$} & \textbf{Regla y evidencia}\par {\normalfont\fontsize{8.2}{10}\selectfont $D_t^{\mathrm{cand}},\ D_t^{\mathrm{set}}$} & \textbf{Autorización / decisión pendiente}\par {\normalfont\fontsize{8.2}{10}\selectfont $Q_t^{\mathrm{base,cand}},\ B_t,\ J_t^{\mathrm{cand}}$}\\\midrule\endhead
+\rule{0pt}{7.7mm}Pasivos compatibles previos & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Base pospasivo / F-R03 & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Tratamiento negativo / F-R05a/b & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Protección, reparación y reposición & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\begin{Notice}Distinga conservadurismo por incertidumbre de reversión física, y protección requerida de reserva nueva financiada. La liquidación candidata no equivale a ejecución. Registre decisión AP-09; aquí no se fija porcentaje de reserva.\end{Notice}
+\Sheet{09}{Salvaguardas, consentimiento, beneficios y afirmaciones superpuestas}{S-12; S-13; S-17; AO-03; AO-04; AO-09; AO-10; AO-12; FRM-04/AO}
+\BlockTitle{Evidencia de participación, consentimiento y salvaguardas}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{49.49mm} P{65.99mm} P{49.49mm}@{}}
+\toprule
+\textbf{Parte afectada / asunto} & \textbf{Evidencia, método y prueba independiente} & \textbf{Acuerdo, queja y acción}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Tratamiento de traslapes}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{57.74mm} P{52.79mm} P{54.44mm}@{}}
+\toprule
+\textbf{Intersección de área, período y resultado} & \textbf{Facultades e intervenciones previas} & \textbf{Resolución / retención delimitada / evidencia}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Beneficios, impactos adversos y compromisos de monitoreo}
+\Prompt{Documente reparto acordado, prevención de impactos adversos, canal de quejas y acceso a evaluación independiente. Distinga resultados observados de beneficios previstos; no equipare atributos distintos.}
+\Answer{12.9}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{10}{Implementación, monitoreo y factibilidad operativa}{S-25; P-02; P-03; P-04; CYC-04; CYC-06}
+\BlockTitle{Implementación y recursos}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T19 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ c_{j,t}\;[u_c] \]}
+c es costo o recurso registrado en moneda y fecha de precios explícitas. Si se calcula, ingresar ecuación presupuestal real y fuente. La etiqueta no aporta precio, tasa de descuento, fórmula financiera ni factor de emisión.\par
+\textbf{Base:} CYC-03; CYC-04; CYC-05; etiqueta de dato.\par
+\textbf{Libro:} Anexo presupuestal; Evidence!G.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{52.79mm} P{59.39mm} P{52.79mm}@{}}
+\toprule
+\textbf{Actividad / hito}\par {\normalfont\fontsize{8.2}{10}\selectfont $j,\ t$} & \textbf{Ejecutor / compromiso de recursos}\par {\normalfont\fontsize{8.2}{10}\selectfont $c_{j,t}$} & \textbf{Cronograma / restricción / evidencia}\par {\normalfont\fontsize{8.2}{10}\selectfont $\text{source}(c_{j,t})$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Registro de variables de monitoreo}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T20 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ x_{\ell}\;[u_{\ell}] \]}
+x\_l es la observación, entrada o salida identificada; u\_l es su unidad declarada. Registrar ecuación exacta, archivo, hoja, celda/rango, período y estado. Esta notación no prescribe un estimador.\par
+\textbf{Base:} F-01; T-01.\par
+\textbf{Libro:} Evidence!A:J; Components!F:L.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{49.49mm} P{64.34mm} P{51.14mm}@{}}
+\toprule
+\textbf{Variable / ecuación / ámbito}\par {\normalfont\fontsize{8.2}{10}\selectfont $x_{\ell}$} & \textbf{Método, frecuencia y responsable}\par {\normalfont\fontsize{8.2}{10}\selectfont $u_{\ell},\ t$} & \textbf{Calibración, calidad y vacíos}\par {\normalfont\fontsize{8.2}{10}\selectfont $\text{source}(x_{\ell})$}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Factibilidad demostrada y contingencia}
+\Prompt{Evalúe por separado factibilidad técnica, ambiental, social, jurídica, operativa y de recursos. Registre seguridad, acceso, estacionalidad, contingencias, respuesta a eventos y supuestos financieros de ejecución.}
+\Answer{12.9}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{11}{Entrega a Descripción del Proyecto y condiciones pendientes}{CYC-04; CYC-05; S-16; S-18; MIG-01; MIG-07; U-01}
+\BlockTitle{Conclusiones de factibilidad por dimensión}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{47.84mm} P{65.99mm} P{51.14mm}@{}}
+\toprule
+\textbf{Dimensión} & \textbf{Conclusión y evidencia de soporte} & \textbf{Restricción / responsable / acción}\\\midrule\endhead
+\rule{0pt}{7.7mm}Técnica / ambiental & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Social / salvaguardas & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Jurídica / derechos & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Operativa / recursos & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Paquete de entrega PD}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{51.14mm} P{62.69mm}@{}}
+\toprule
+\textbf{Registro / producto} & \textbf{Versión y custodio} & \textbf{Condición pendiente / puerta afectada}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Alcance sustentado solicitado}
+\Prompt{Identifique actividades, estratos y atributos sustentados para preparar PD. Registre por separado datos históricos o decisiones de migración y conserve pasivos. No presente factibilidad como verificación independiente de resultados.}
+\Answer{12.9}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{12}{Evidencia, anexos y referencias}{F-01; S-17; P-04; A-05}
+\begin{Notice}Asigne a cada anexo identificador, versión, fecha, custodio y ubicación exacta. Cite la fuente de toda entrada material. Mantenga la evidencia restringida accesible por separado a los revisores autorizados; no oculte la base metodológica de una afirmación.\end{Notice}
+\BlockTitle{Registro de anexos}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{39.59mm} P{75.89mm} P{49.49mm}@{}}
+\toprule
+\textbf{ID de anexo / evidencia} & \textbf{Contenido y sección vinculada} & \textbf{Custodio / acceso / versión}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Referencias específicas del proyecto}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{29.69mm} P{82.48mm} P{52.79mm}@{}}
+\toprule
+\textbf{ID de referencia} & \textbf{Cita completa / versión exacta} & \textbf{Uso en este expediente}\\\midrule\endhead
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Reproducibilidad y entrega}
+\Prompt{Identifique el paquete de evidencia aprobado, archivos de cálculo, condiciones de acceso y custodio. Resuelva todas las referencias rotas antes de presentar.}
+\Answer{9.6}{[Complete la respuesta y referencias de evidencia.]}
+\Sheet{13}{Presentación, revisión y decisión de etapa}{CYC-01; CYC-04; S-16; S-22; S-23; FRM-03; FRM-06; A-12; A-13}
+\begin{Notice}La factibilidad establece el alcance de diseño sustentado para preparar la Descripción del Proyecto. No constituye validación independiente del diseño, registro ni emisión.\end{Notice}
+\BlockTitle{Revisión de salida de etapa}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{80.84mm} P{42.89mm} P{41.24mm}@{}}
+\toprule
+\textbf{Criterio} & \textbf{Evidencia / sección} & \textbf{Hallazgo de revisión}\\\midrule\endhead
+\rule{0pt}{7.7mm}Derechos, mandatos y acceso sustentados & [Completar] & [No evaluado]\\\hline
+\rule{0pt}{7.7mm}Métodos, calibración y pruebas independientes documentados & [Completar] & [No evaluado]\\\hline
+\rule{0pt}{7.7mm}Cálculo, sensibilidad, incertidumbre y riesgo conciliados & [Completar] & [No evaluado]\\\hline
+\rule{0pt}{7.7mm}Salvaguardas y recursos de ejecución establecidos & [Completar] & [No evaluado]\\\hline
+\rule{0pt}{7.7mm}Protocolo de monitoreo y entrega PD completos & [Completar] & [No evaluado]\\\hline
+\end{longtable}}
+\BlockTitle{Registros y firmas separados}
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{51.14mm} P{56.09mm} P{57.74mm}@{}}
+\toprule
+\textbf{Actuación / función responsable} & \textbf{Nombre, fecha y firma} & \textbf{Decisión / alcance / registro}\\\midrule\endhead
+\rule{0pt}{7.7mm}Presentación / proponente & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Preparación técnica & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Revisión sin conflicto & [Completar] & [Completar]\\\hline
+\rule{0pt}{7.7mm}Decisión autorizada de etapa & [Completar] & [Avanzar / corregir / aplazar / rechazar]\\\hline
+\end{longtable}}
+\BlockTitle{Condiciones, hallazgos abiertos y entrega a la etapa siguiente}
+\Prompt{Indique alcance permitido, actividades o afirmaciones bloqueadas, responsable de corrección, evidencia requerida, plazo según perfil aprobado y receptor. Una firma en blanco no equivale a aprobación.}
+\Answer{9.6}{[Complete la respuesta y referencias de evidencia.]}
+
+\Sheet{A}{Anexos de cuentas ex ante, ex post y migración}{CYC-01; CYC-05; F-01; F-03; P-13; MIG-05; FRM-02; FRM-04; FRM-05}
+\BlockTitle{Uso según etapa}
+\Prompt{Completar cuenta ex ante sustentada y ruta de evidencia. Para un proyecto existente o migrado, adjuntar conciliaciones ex post y de migración aplicables, con sus estados distintos.}
+\Answer{17}{[Registrar respuesta y referencias exactas de evidencia.]}
+\BlockTitle{Registro de anexos de cuentas}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T27 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ x_{\ell}\;[u_{\ell}] \]}
+x\_l es la observación, entrada o salida identificada; u\_l es su unidad declarada. Registrar ecuación exacta, archivo, hoja, celda/rango, período y estado. Esta notación no prescribe un estimador.\par
+\textbf{Base:} F-01; T-01.\par
+\textbf{Libro:} Evidence!A:J; Components!F:L.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{54.83mm} P{54.83mm} P{54.83mm}@{}}
+\toprule
+\textbf{Producto / alcance aplicable}\par {\normalfont\fontsize{8.2}{10}\selectfont $x_{\ell}$} & \textbf{Versión, libro y ubicación de evidencia}\par {\normalfont\fontsize{8.2}{10}\selectfont $u_{\ell},\ t$} & \textbf{Estado / revisor / restricción pendiente}\par {\normalfont\fontsize{8.2}{10}\selectfont $\text{source}(x_{\ell})$}\\\midrule\endhead
+\rule{0pt}{8mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{8mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{8mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Contrato común de la cuenta}
+\Prompt{Usar los formatos bilingües Estimación ex ante, Informe de resultados ex post y Conciliación de migración junto con el libro de cálculo cuando correspondan. Identificar períodos, bandas, unidades, faltantes y celdas exactas. Separar proyecciones, observaciones, contrafactual, resultados verificados y NVEU autorizadas. Ninguna tasa o campo vacío establece política, emisión nula ni emisión de unidades.}
+\Answer{17}{[Registrar respuesta y referencias exactas de evidencia.]}
+\Needspace{112mm}\BlockTitle{Conciliación requerida}
+\par\begingroup\sffamily\fontsize{8}{10}\selectfont\color{NEBGreen}\setlength{\parskip}{2pt}\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{3pt}
+\textbf{FEASIBILITY-T28 / Notación del cálculo}\par
+{\fontsize{9}{11}\selectfont\[ \Delta q_{\mathrm{basis}}=q^{\mathrm{harm}}-q^{\mathrm{src}},\quad \Delta q_{\mathrm{method}}=q^{\mathrm{NEB}}-q^{\mathrm{harm}} \]}
+{\fontsize{9}{11}\selectfont\[ q^{\mathrm{NEB}}-q^{\mathrm{src}}=\Delta q_{\mathrm{basis}}+\Delta q_{\mathrm{method}} \]}
+src conserva resultado original; harm aplica método original a base comparable acordada; NEB es resultado receptor sobre esa base. La identidad telescópica explica diferencias, no elegibilidad. No forzar diferencia metodológica cero.\par
+\textbf{Base:} MIG-05; P-13; identidad de conciliación.\par
+\textbf{Libro:} Migration!E:K.\par\endgroup
+{\sffamily\fontsize{8.3}{10.3}\selectfont\begin{longtable}{@{}P{54.83mm} P{54.83mm} P{54.83mm}@{}}
+\toprule
+\textbf{Dimensión / registro original}\par {\normalfont\fontsize{8.2}{10}\selectfont $t,\ u$} & \textbf{Tratamiento receptor o monitoreado}\par {\normalfont\fontsize{8.2}{10}\selectfont $q^{\mathrm{src}},\ q^{\mathrm{harm}},\ q^{\mathrm{NEB}}$} & \textbf{Evidencia y referencia decisoria}\par {\normalfont\fontsize{8.2}{10}\selectfont $\Delta q_{\mathrm{basis}},\ \Delta q_{\mathrm{method}}$}\\\midrule\endhead
+\rule{0pt}{8mm}[Completar] & [Completar] & [Completar]\\\hline
+\rule{0pt}{8mm}[Completar] & [Completar] & [Completar]\\\hline
+\end{longtable}}
+
+\Sheet{CALC}{Trazabilidad y notación del cálculo}{F-01; T-01; P-13; FRM-02; FRM-04; NEB-MTH-002}
+\Prompt{Registrar cada cantidad calculada como una fila identificada de forma única. Conservar la expresión fuente exacta y una expresión separada para toda adaptación a NEBIOT. Traducir una etiqueta no cambia una fórmula. Unidades, reservorios incluidos, signo, período, estado de entrada y dominio matemático forman parte del registro. Una tabla administrativa no necesita ecuación inventada. Variables fuente ambiguas requieren aclaración, no significado supuesto.}
+\BlockTitle{Índices y estado}
+$\mathrm{EA}$ / $\mathrm{EP}$: pronóstico fechado / cuenta del período reportado; $t$: intervalo; $i,j$: estratos o clases declarados; $o$: órgano o reservorio disjunto; $g$: gas; $\tau$: cohorte de perturbación; $\ell$: fila de cálculo/componente.
+\BlockTitle{Registro de un cálculo — repetir por resultado}
+{\sffamily\fontsize{8.5}{10.5}\selectfont\begin{longtable}{@{}P{61mm}P{105mm}@{}}\toprule Campo & Registro\\\midrule\endhead
+Fila de cálculo / símbolo & [Completar]\\\hline
+Definición y uso previsto & [Completar]\\\hline
+Archivo fuente / versión / huella exactos & [Completar]\\\hline
+Hoja / celda o ID del registro bruto & [Completar]\\\hline
+Expresión original y unidad original & [Completar]\\\hline
+Entradas: símbolos, valores, unidades y períodos & [Completar]\\\hline
+Ecuación receptora / identificador del estándar & [Completar]\\\hline
+Transformación, conversión y justificación & [Completar]\\\hline
+Valores intermedios y finales sin redondear & [Completar]\\\hline
+Tabla / fila / ubicación de salida en informe & [Completar]\\\hline
+Diferencia de recálculo / base de tolerancia & [Completar]\\\hline
+Revisor independiente / hallazgo / decisión & [Completar]\\\hline
+\end{longtable}}
+\BlockTitle{Comparación aritmética, no materialidad}
+\[\delta_{\ell}=v_{\ell}^{\mathrm{recalc}}-v_{\ell}^{\mathrm{reference}}\]
+\[|\delta_{\ell}|\le\varepsilon_a+\varepsilon_r|v_{\ell}^{\mathrm{reference}}|\]
+\Prompt{La tolerancia absoluta tiene la unidad del resultado; la relativa es adimensional. Registrar ambas explícitamente. Son parámetros de comparación informática, no umbrales de materialidad aprobados. Comparar valores sin redondear. Primero reproducir el método fuente y luego mostrar por separado cada cambio aceptado. No forzar igualdad entre resultado metodológico adaptado y fuente.}

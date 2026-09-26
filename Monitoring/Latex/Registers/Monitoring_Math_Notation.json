@@ -1,0 +1,391 @@
+{
+  "ALLOC": {
+    "equations": [
+      "Q_{t,m}=w_{t,m}Q_t,\\quad w_{t,m}\\ge0,\\quad \\sum_m w_{t,m}=1",
+      "r_t^{\\mathrm{alloc}}=\\sum_m Q_{t,m}-Q_t"
+    ],
+    "headers": [
+      "t,\\ m",
+      "w_{t,m},\\ Q_t",
+      "Q_{t,m},\\ r_t^{\\mathrm{alloc}}"
+    ],
+    "en": "m is a child reporting interval, not automatically a measured month. The same parent and basis must be used for all weights. Do not add a parent total to its allocated children. Retain negative signs and explain unequal-duration allocations.",
+    "es": "m es subintervalo de reporte, no mes medido automáticamente. Usar igual padre y base para todos los pesos. No sumar total padre con sus hijos asignados. Conservar signos negativos y explicar asignación con duraciones desiguales.",
+    "reference": "F-R01; allocation identity / identidad de asignación",
+    "location": "Allocation!C:I",
+    "units": "t CO2e; dimensionless weights / pesos adimensionales",
+    "reference_en": "F-R01; allocation identity",
+    "location_en": "Allocation!C:I",
+    "reference_es": "F-R01; identidad de asignación",
+    "location_es": "Allocation!C:I"
+  },
+  "AREA": {
+    "equations": [
+      "A_{i,t}=\\frac{n_{i,t}a_{\\mathrm{cell}}}{k_A},\\qquad k_A=10^4\\ \\mathrm{m^2\\,ha^{-1}}"
+    ],
+    "headers": [
+      "i,\\ t",
+      "A_{i,t},\\ n_{i,t},\\ a_{\\mathrm{cell}}",
+      "\\text{mask},\\ \\text{scope}"
+    ],
+    "en": "n is a pixel count; a_cell is pixel area in m2; A is area in ha. The PIXELS route uses the displayed geometric conversion. Direct area is a documented input. Net class change is not gross deforestation.",
+    "es": "n es conteo de píxeles; a_cell es su área en m2; A es área en ha. La ruta PIXELS usa la conversión geométrica mostrada. El área directa es una entrada documentada. El cambio neto de clase no es deforestación bruta.",
+    "reference": "M01; MIG-13; MIG-14",
+    "location": "Spatial!F:I; Profile!B15",
+    "units": "ha; pixels / píxeles; m2",
+    "reference_en": "M01; MIG-13; MIG-14",
+    "location_en": "Spatial!F:I; Profile!B15",
+    "reference_es": "M01; MIG-13; MIG-14",
+    "location_es": "Spatial!F:I; Profile!B15"
+  },
+  "AREA_CHANGE": {
+    "equations": [
+      "\\Delta A_i=A_i(t_1)-A_i(t_0),\\qquad \\bar a_i=\\frac{\\Delta A_i}{t_1-t_0}"
+    ],
+    "headers": [
+      "i,\\ t_0,\\ t_1",
+      "A_i(t_0),\\ A_i(t_1)",
+      "\\Delta A_i,\\ \\bar a_i"
+    ],
+    "en": "The difference is a signed net class-area change, not a gross transition matrix. The average is an allocation over the stated duration, not an annual observation. A gross transition needs its own measured or modeled origin/destination evidence.",
+    "es": "La diferencia es cambio neto de área por clase con signo, no matriz de transiciones brutas. La media distribuye el cambio sobre su duración, no es observación anual. Una transición bruta necesita evidencia propia de origen y destino.",
+    "reference": "M01; MIG-14; reporting identity / identidad de reporte",
+    "location": "Spatial!I:J; Allocation!C:I",
+    "units": "ha; ha/year / ha/año",
+    "reference_en": "M01; MIG-14; reporting identity",
+    "location_en": "Spatial!I:J; Allocation!C:I",
+    "reference_es": "M01; MIG-14; identidad de reporte",
+    "location_es": "Spatial!I:J; Allocation!C:I"
+  },
+  "BASELINE": {
+    "equations": [
+      "N_{\\mathrm{BL},t}=\\sum_{\\ell\\in\\mathcal I_{\\mathrm{BL},t}}q_{\\ell,\\mathrm{BL},t}"
+    ],
+    "headers": [
+      "\\ell,\\ i,\\ t",
+      "q_{\\ell,\\mathrm{BL},t}",
+      "N_{\\mathrm{BL},t}"
+    ],
+    "en": "Baseline inputs belong to the approved counterfactual and matched period. Do not enter a subtotal that already deducts project emissions as N_BL and deduct those emissions again. Define each driver, pool, and gas and keep the original cell expression.",
+    "es": "Las entradas de línea base pertenecen al contrafactual aprobado y período comparable. No ingresar como N_BL un subtotal que ya descuenta emisiones del proyecto para restarlas otra vez. Definir impulsor, reservorio y gas y conservar expresión de celda original.",
+    "reference": "M04.4; M04.5; P-13",
+    "location": "Components!D=BL; ExAnte!F; ExPost!F",
+    "units": "t CO2e per period / por período",
+    "reference_en": "M04.4; M04.5; P-13",
+    "location_en": "Components!D=BL; ExAnte!F; ExPost!F",
+    "reference_es": "M04.4; M04.5; P-13",
+    "location_es": "Components!D=BL; ExAnte!F; ExPost!F"
+  },
+  "BOUND": {
+    "equations": [
+      "Q_t^{\\mathrm{low}}=\\widehat Q_t-k_{1-\\alpha}u_{Q_t}",
+      "Q_t^{\\mathrm{low}}=\\widehat Q_t-\\delta_t\\quad(\\mathrm{DEDUCTION});\\qquad Q_t^{\\mathrm{low}}=q_t^{\\mathrm{bound}}\\quad(\\mathrm{BOUND})"
+    ],
+    "headers": [
+      "t,\\ \\delta_t",
+      "u_{Q_t},\\ k_{1-\\alpha}",
+      "Q_t^{\\mathrm{low}}"
+    ],
+    "en": "delta is the justified deduction (DEDUCTION route); BOUND supplies the supported lower value directly. The second displayed line describes the workbook interface, not a new approved estimator. Record the upstream uncertainty or evidence-bound procedure and decision.",
+    "es": "delta es descuento justificado (ruta DEDUCTION); BOUND aporta directamente el límite sustentado. La segunda línea describe interfaz del libro, no estimador nuevo aprobado. Registrar procedimiento previo de incertidumbre o límite basado en evidencia y decisión.",
+    "reference": "M05.3; F-A02; AP-08",
+    "location": "ExAnte!J:L; ExPost!J:L; ExPost!O",
+    "units": "t CO2e; dimensionless quantile / cuantil adimensional",
+    "reference_en": "M05.3; F-A02; AP-08",
+    "location_en": "ExAnte!J:L; ExPost!J:L; ExPost!O",
+    "reference_es": "M05.3; F-A02; AP-08",
+    "location_es": "ExAnte!J:L; ExPost!J:L; ExPost!O"
+  },
+  "CARRY": {
+    "equations": [
+      "N_t^-=\\max(0,-Q_t^{\\mathrm{low}}),\\quad \\Delta D_t^-=N_t^- -O_t-C_t^-",
+      "D_{t+1}=D_t^{\\mathrm{rem}}+\\Delta D_t^-"
+    ],
+    "headers": [
+      "Q_t^{\\mathrm{low}},\\ N_t^-",
+      "O_t,\\ C_t^-",
+      "\\Delta D_t^-,\\ D_{t+1}"
+    ],
+    "en": "FULL_BOUND only when expressly adopted. O is a documented previously recognized portion of the same deficit; C_minus is executed reserve cancellation for a disjoint portion. Require O+C_minus <= N_minus. A negative uncertainty bound is not automatically a physical reversal.",
+    "es": "FULL_BOUND solo con adopción expresa. O es porción documentada previamente reconocida del mismo déficit; C_minus es cancelación ejecutada de reserva para porción disjunta. Exigir O+C_minus <= N_minus. Un límite negativo de incertidumbre no es automáticamente reversión física.",
+    "reference": "F-R05a; F-R05b; F-03",
+    "location": "CarryForward!B:J; Settlement!I",
+    "units": "t CO2e",
+    "reference_en": "F-R05a; F-R05b; F-03",
+    "location_en": "CarryForward!B:J; Settlement!I",
+    "reference_es": "F-R05a; F-R05b; F-03",
+    "location_es": "CarryForward!B:J; Settlement!I"
+  },
+  "COHORT": {
+    "equations": [
+      "E^{\\mathrm{CO_2}}_{i,t}=\\frac{44}{12}\\sum_{\\tau\\le t}\\sum_o A_{i,\\tau}\\ell_{io,\\tau}k_{io,\\tau}(t)"
+    ],
+    "headers": [
+      "i,\\ o,\\ \\tau",
+      "A_{i,\\tau},\\ \\ell_{io,\\tau}",
+      "k_{io,\\tau}(t),\\ E^{\\mathrm{CO_2}}_{i,t}"
+    ],
+    "en": "A is newly affected ha, ell is allocated Mg C/ha, and k is the fraction released as CO2 in interval t. The sum of fractions cannot exceed its defined allocation. Cohorts and pools are disjoint; keep remaining material and pre-period cohorts. Use exact intervals.",
+    "es": "A es ha recién afectadas, ell es Mg C/ha asignados y k es fracción liberada como CO2 durante t. La suma de fracciones no excede su asignación definida. Cohortes y reservorios son disjuntos; conservar material remanente y cohortes anteriores. Usar intervalos exactos.",
+    "reference": "M04.2; F-C03a; F-C03b; F-C04",
+    "location": "Upstream cohort schedule / cronograma previo de cohortes; Components!F:L",
+    "units": "ha; Mg C/ha; fraction / fracción; t CO2 per period / por período",
+    "reference_en": "M04.2; F-C03a; F-C03b; F-C04",
+    "location_en": "Upstream cohort schedule; Components!F:L",
+    "reference_es": "M04.2; F-C03a; F-C03b; F-C04",
+    "location_es": "Cronograma previo de cohortes; Components!F:L"
+  },
+  "COMP": {
+    "equations": [
+      "q_{\\ell,s,t}=x_{\\ell,s,t}f_{\\ell,s,t}",
+      "N_{s,t}=\\sum_{\\ell\\in\\mathcal I_{s,t}}q_{\\ell,s,t}"
+    ],
+    "headers": [
+      "\\ell,\\ s,\\ t",
+      "x_{\\ell,s,t},\\ f_{\\ell,s,t}",
+      "q_{\\ell,s,t},\\ N_{s,t}"
+    ],
+    "en": "x and f have reciprocal units yielding t CO2e per period. I is the set of included, evidenced, disjoint components for the same basis, period and account. For precomputed mass, f=1 must be explicitly entered with its meaning. BL and PJ are net emissions; LK is attributable leakage.",
+    "es": "Las unidades de x y f producen t CO2e por período. I contiene componentes incluidos, sustentados y disjuntos de igual base, período y cuenta. Para masa precalculada, f=1 se ingresa explícitamente con su significado. BL y PJ son emisiones netas; LK es fuga atribuible.",
+    "reference": "M04.4; M04.5; T-08; arithmetic implementation / implementación aritmética",
+    "location": "Components!G:I; ExAnte!F:H; ExPost!F:H",
+    "units": "t CO2e per period / por período",
+    "reference_en": "M04.4; M04.5; T-08; arithmetic implementation",
+    "location_en": "Components!G:I; ExAnte!F:H; ExPost!F:H",
+    "reference_es": "M04.4; M04.5; T-08; implementación aritmética",
+    "location_es": "Components!G:I; ExAnte!F:H; ExPost!F:H"
+  },
+  "COMPARE": {
+    "equations": [
+      "\\Delta Q_t=Q_t^{\\mathrm{EP}}-Q_t^{\\mathrm{EA}}",
+      "\\Delta Q_t=\\Delta N_{\\mathrm{BL},t}-\\Delta N_{\\mathrm{PJ},t}-\\Delta L_t"
+    ],
+    "headers": [
+      "t,\\ z",
+      "Q_t^{\\mathrm{EA}},\\ Q_t^{\\mathrm{EP}}",
+      "\\Delta Q_t,\\ r_t"
+    ],
+    "en": "All deltas are EP minus the frozen EA value on the same support before uncertainty and reserve. r = deltaQ - (deltaBL - deltaPJ - deltaL) is an arithmetic residual. A forecast difference is not itself mitigation, causation, or a materiality finding.",
+    "es": "Todas las diferencias son EP menos EA congelado sobre igual soporte antes de incertidumbre y reserva. r = deltaQ - (deltaBL - deltaPJ - deltaL) es residual aritmético. Diferencia de pronóstico no equivale a mitigación, causalidad o hallazgo de materialidad.",
+    "reference": "M04.5; P-13; comparison identity / identidad de comparación",
+    "location": "Comparison!D:J",
+    "units": "t CO2e",
+    "reference_en": "M04.5; P-13; comparison identity",
+    "location_en": "Comparison!D:J",
+    "reference_es": "M04.5; P-13; identidad de comparación",
+    "location_es": "Comparison!D:J"
+  },
+  "DATA": {
+    "equations": [
+      "x_{\\ell}\\;[u_{\\ell}]"
+    ],
+    "headers": [
+      "x_{\\ell}",
+      "u_{\\ell},\\ t",
+      "\\text{source}(x_{\\ell})"
+    ],
+    "en": "x_l is the identified observation, input, or output; u_l is its declared unit. Record the exact equation and source file, worksheet, cell/range, period, and status. This notation does not prescribe an estimator.",
+    "es": "x_l es la observación, entrada o salida identificada; u_l es su unidad declarada. Registrar ecuación exacta, archivo, hoja, celda/rango, período y estado. Esta notación no prescribe un estimador.",
+    "reference": "F-01; T-01",
+    "location": "Evidence!A:J; Components!F:L",
+    "units": "Variable-specific; never omit the unit / Específica de cada variable",
+    "reference_en": "F-01; T-01",
+    "location_en": "Evidence!A:J; Components!F:L",
+    "reference_es": "F-01; T-01",
+    "location_es": "Evidence!A:J; Components!F:L"
+  },
+  "DENOM": {
+    "equations": [
+      "n_t^{\\mathrm{candidate}}=\\frac{J_t^{\\mathrm{cand}}}{d_u},\\qquad d_u>0,\\quad J_t^{\\mathrm{cand}}\\ge0"
+    ],
+    "headers": [
+      "\\text{category},\\ t",
+      "d_u",
+      "J_t^{\\mathrm{cand}},\\ n_t^{\\mathrm{candidate}}"
+    ],
+    "en": "d_u is t CO2e per NVEU of the specified category. The quotient is a candidate count, not issuance or an equivalence with other external carbon units. No value for d_u or whole-unit rule is assumed. Missing category authorization blocks the unit count.",
+    "es": "d_u es t CO2e por NVEU de categoría especificada. El cociente es conteo candidato, no emisión ni equivalencia con otras unidades de carbono externas. No se supone d_u ni regla de unidades enteras. Falta de autorización de categoría bloquea conteo.",
+    "reference": "F-R04; U-01",
+    "location": "Results!F:H; Profile!B7:B10",
+    "units": "t CO2e; t CO2e/NVEU; NVEU",
+    "reference_en": "F-R04; U-01",
+    "location_en": "Results!F:H; Profile!B7:B10",
+    "reference_es": "F-R04; U-01",
+    "location_es": "Results!F:H; Profile!B7:B10"
+  },
+  "GASES": {
+    "equations": [
+      "N_{s,t}=E_{\\mathrm{CO_2},s,t}-R_{\\mathrm{CO_2},s,t}+\\sum_{g\\ne\\mathrm{CO_2}}\\mathrm{GWP}_gE_{g,s,t}"
+    ],
+    "headers": [
+      "s,\\ g,\\ t",
+      "E_{g,s,t},\\ R_{\\mathrm{CO_2},s,t}",
+      "N_{s,t},\\ \\mathrm{GWP}_g"
+    ],
+    "en": "s is BL or PJ; E is emissions and R is CO2 removals. Record gas-specific masses and the adopted characterization source and horizon. Do not characterize an already characterized CO2e quantity again. The workbook imports these qualified component calculations.",
+    "es": "s es BL o PJ; E son emisiones y R remociones de CO2. Registrar masas por gas, fuente y horizonte de caracterización adoptados. No caracterizar de nuevo CO2e ya caracterizado. El libro importa estos cálculos de componentes calificados.",
+    "reference": "M04.4; AP-07",
+    "location": "Components!F:L; Profile!B17",
+    "units": "t gas; t CO2e per period / por período",
+    "reference_en": "M04.4; AP-07",
+    "location_en": "Components!F:L; Profile!B17",
+    "reference_es": "M04.4; AP-07",
+    "location_es": "Components!F:L; Profile!B17"
+  },
+  "LEAKAGE": {
+    "equations": [
+      "\\widehat L_t=N_{\\mathrm{PLKA,with},t}-N_{\\mathrm{PLKA,without},t}"
+    ],
+    "headers": [
+      "t,\\ \\mathrm{PLKA}",
+      "N_{\\mathrm{PLKA,with},t},\\ N_{\\mathrm{PLKA,without},t}",
+      "\\widehat L_t"
+    ],
+    "en": "The two accounts have matched geography, activities, gases and intervals. Any source ratio remains an explicit numerator/denominator, not an assumed percentage. A signed diagnostic does not automatically authorize an extra benefit; the applicable attribution profile governs.",
+    "es": "Las cuentas comparten geografía, actividades, gases e intervalos. Toda razón fuente conserva numerador/denominador explícitos, no porcentaje supuesto. Un diagnóstico con signo no autoriza automáticamente beneficio extra; rige el perfil de atribución aplicable.",
+    "reference": "F-L01; T-08",
+    "location": "Components!D=LK; ExAnte!H; ExPost!H",
+    "units": "t CO2e per period / por período",
+    "reference_en": "F-L01; T-08",
+    "location_en": "Components!D=LK; ExAnte!H; ExPost!H",
+    "reference_es": "F-L01; T-08",
+    "location_es": "Components!D=LK; ExAnte!H; ExPost!H"
+  },
+  "MATERIAL": {
+    "equations": [
+      "C_j=10^{-3}\\sum_o V_{jo}\\rho^b_{jo}f^C_{jo}",
+      "c_p=\\frac{\\sum_{j\\in p}C_j+C_{p,\\mathrm{other}}}{a_p}"
+    ],
+    "headers": [
+      "j,\\ o,\\ p",
+      "V_{jo},\\rho^b_{jo},\\ f^C_{jo}",
+      "C_j,\\ c_p"
+    ],
+    "en": "V is green material volume in m3; rho_b is oven-dry kg per green m3; f_C is dry-mass carbon fraction. C_j is Mg C; c_p is Mg C/ha. The plot denominator a_p is in ha. Pools must be disjoint and moisture conventions matched.",
+    "es": "V es volumen verde material en m3; rho_b es kg secos en estufa por m3 verde; f_C es fracción de carbono seco. C_j está en Mg C; c_p en Mg C/ha. El denominador a_p está en ha. No duplicar reservorios ni mezclar convenciones de humedad.",
+    "reference": "M02.1; M02.2; F-M01",
+    "location": "Evidence!G; Factors!D:G; upstream organ and plot records / registros previos de órganos y parcelas",
+    "units": "m3; kg/m3; kg C/kg dry; Mg C; Mg C/ha",
+    "reference_en": "M02.1; M02.2; F-M01",
+    "location_en": "Evidence!G; Factors!D:G; upstream organ and plot records",
+    "reference_es": "M02.1; M02.2; F-M01",
+    "location_es": "Evidence!G; Factors!D:G; registros previos de órganos y parcelas"
+  },
+  "MIGRATION": {
+    "equations": [
+      "\\Delta q_{\\mathrm{basis}}=q^{\\mathrm{harm}}-q^{\\mathrm{src}},\\quad \\Delta q_{\\mathrm{method}}=q^{\\mathrm{NEB}}-q^{\\mathrm{harm}}",
+      "q^{\\mathrm{NEB}}-q^{\\mathrm{src}}=\\Delta q_{\\mathrm{basis}}+\\Delta q_{\\mathrm{method}}"
+    ],
+    "headers": [
+      "t,\\ u",
+      "q^{\\mathrm{src}},\\ q^{\\mathrm{harm}},\\ q^{\\mathrm{NEB}}",
+      "\\Delta q_{\\mathrm{basis}},\\ \\Delta q_{\\mathrm{method}}"
+    ],
+    "en": "src retains the original result; harm is the original method on the agreed comparable basis; NEB is the receiving-method result on that basis. This telescoping identity explains differences, not eligibility. Do not force the methodological difference to zero.",
+    "es": "src conserva resultado original; harm aplica método original a base comparable acordada; NEB es resultado receptor sobre esa base. La identidad telescópica explica diferencias, no elegibilidad. No forzar diferencia metodológica cero.",
+    "reference": "MIG-05; P-13; reconciliation identity / identidad de conciliación",
+    "location": "Migration!E:K",
+    "units": "The explicitly matched unit u / La unidad u expresamente conciliada",
+    "reference_en": "MIG-05; P-13; reconciliation identity",
+    "location_en": "Migration!E:K",
+    "reference_es": "MIG-05; P-13; identidad de conciliación",
+    "location_es": "Migration!E:K"
+  },
+  "NET": {
+    "equations": [
+      "\\widehat Q_t^z=N_{\\mathrm{BL},t}^z-N_{\\mathrm{PJ},t}^z-L_t^z,\\qquad z\\in\\{\\mathrm{EA},\\mathrm{EP}\\}"
+    ],
+    "headers": [
+      "t,\\ z",
+      "N_{\\mathrm{BL},t}^z,\\ N_{\\mathrm{PJ},t}^z,\\ L_t^z",
+      "\\widehat Q_t^z"
+    ],
+    "en": "EA denotes the dated forecast; EP denotes the reporting-period account, not automatic verification. All terms are signed period masses on matched support. The quantity is before uncertainty, previous liabilities, reserve, and denomination.",
+    "es": "EA denota pronóstico fechado; EP denota cuenta del período reportado, no verificación automática. Todos los términos son masas del período con signo y soporte comparable. La cantidad precede incertidumbre, obligaciones previas, reserva y denominación.",
+    "reference": "M04.5; F-R01",
+    "location": "ExAnte!F:I; ExPost!F:I",
+    "units": "t CO2e per period / por período",
+    "reference_en": "M04.5; F-R01",
+    "location_en": "ExAnte!F:I; ExPost!F:I",
+    "reference_es": "M04.5; F-R01",
+    "location_es": "ExAnte!F:I; ExPost!F:I"
+  },
+  "RESERVE": {
+    "equations": [
+      "B^{\\mathrm{req}}=\\inf\\{\\ell:\\Pr(L_H\\le\\ell\\mid\\mathcal D_v)\\ge\\gamma\\}",
+      "B^{\\mathrm{add}}=\\max(0,B^{\\mathrm{req}}-B^{\\mathrm{avail}})"
+    ],
+    "headers": [
+      "L_H,\\ H",
+      "\\gamma,\\ B^{\\mathrm{req}},\\ B^{\\mathrm{avail}}",
+      "B^{\\mathrm{add}}"
+    ],
+    "en": "This is conditional F-A04, not a default probability model. Record the adopted horizon, protection level and loss distribution, or the separately justified stress route. Distinguish total required protection, available compatible reserve and new contribution. No rate is prefilled.",
+    "es": "Es F-A04 condicional, no modelo probabilístico predeterminado. Registrar horizonte, nivel de protección y distribución adoptados, o ruta de estrés justificada por separado. Distinguir protección total requerida, reserva compatible disponible y aporte nuevo. No se precarga tasa.",
+    "reference": "F-A04; F-A05; T-17–T-20; AP-09",
+    "location": "Qualified risk schedule / cuadro calificado de riesgo; Settlement!J; FRM-09",
+    "units": "t CO2e; years / años; probability / probabilidad",
+    "reference_en": "F-A04; F-A05; T-17–T-20; AP-09",
+    "location_en": "Qualified risk schedule; Settlement!J; FRM-09",
+    "reference_es": "F-A04; F-A05; T-17–T-20; AP-09",
+    "location_es": "Cuadro calificado de riesgo; Settlement!J; FRM-09"
+  },
+  "SAMPLE": {
+    "equations": [
+      "W_i=\\frac{A_i}{A},\\quad \\widehat p_{ij}=\\frac{n_{ij}}{n_i},\\quad \\widehat A_j=A\\sum_i W_i\\widehat p_{ij}"
+    ],
+    "headers": [
+      "i,\\ j,\\ n_i",
+      "W_i,\\ \\widehat p_{ij}",
+      "\\widehat A_j"
+    ],
+    "en": "Use the sampling design and domain required by M01.4. W_i is the mapped stratum weight, not an estimated weight by default; n_ij and n_i are reference counts. This upstream estimator is not fitted by the account workbook.",
+    "es": "Aplicar diseño y dominio de M01.4. W_i es peso cartográfico del estrato, no peso estimado por defecto; n_ij y n_i son conteos de referencia. El libro contable no ajusta este estimador previo.",
+    "reference": "M01.4; M01.5; T-03",
+    "location": "Evidence!G; Spatial!I; qualified upstream calculation / cálculo previo calificado",
+    "units": "ha; dimensionless proportions / proporciones adimensionales",
+    "reference_en": "M01.4; M01.5; T-03",
+    "location_en": "Evidence!G; Spatial!I; qualified upstream calculation",
+    "reference_es": "M01.4; M01.5; T-03",
+    "location_es": "Evidence!G; Spatial!I; cálculo previo calificado"
+  },
+  "SETTLE": {
+    "equations": [
+      "Q_t^{\\mathrm{eligible}}=\\max(0,Q_t^{\\mathrm{low}}),\\quad D_t^{\\mathrm{cand}}=\\min(D_t,Q_t^{\\mathrm{eligible}})",
+      "Q_t^{\\mathrm{base,cand}}=Q_t^{\\mathrm{eligible}}-D_t^{\\mathrm{cand}},\\quad J_t^{\\mathrm{cand}}=Q_t^{\\mathrm{base,cand}}-B_t"
+    ],
+    "headers": [
+      "D_t,\\ Q_t^{\\mathrm{low}}",
+      "D_t^{\\mathrm{cand}},\\ D_t^{\\mathrm{set}}",
+      "Q_t^{\\mathrm{base,cand}},\\ B_t,\\ J_t^{\\mathrm{cand}}"
+    ],
+    "en": "cand distinguishes a worksheet proposal from an executed posting. D_set is actual evidenced settlement; D_rem = D - D_set. Do not reduce posted liability by D_cand. A larger required reserve than the candidate base is a shortfall, not funded protection. No rounding is implied.",
+    "es": "cand distingue propuesta del libro de registro ejecutado. D_set es liquidación real sustentada; D_rem = D - D_set. No reducir obligación registrada por D_cand. Reserva requerida superior a la base candidata es déficit, no protección financiada. No se presume redondeo.",
+    "reference": "M05.4; M05.5; F-R03",
+    "location": "Settlement!B:L; ExAnte!M:O (forecast only / solo pronóstico)",
+    "units": "t CO2e",
+    "reference_en": "M05.4; M05.5; F-R03",
+    "location_en": "Settlement!B:L; ExAnte!M:O (forecast only)",
+    "reference_es": "M05.4; M05.5; F-R03",
+    "location_es": "Settlement!B:L; ExAnte!M:O (solo pronóstico)"
+  },
+  "UNC": {
+    "equations": [
+      "u_Q^2=u_B^2+u_P^2+u_L^2-2\\operatorname{Cov}(B,P)-2\\operatorname{Cov}(B,L)+2\\operatorname{Cov}(P,L)"
+    ],
+    "headers": [
+      "B,\\ P,\\ L",
+      "u_B,\\ u_P,\\ u_L,\\ \\operatorname{Cov}",
+      "u_Q^2,\\ Q_t^{\\mathrm{low}}"
+    ],
+    "en": "B, P and L in this variance identity denote baseline, project and leakage estimators, not reserve B_t. Standard uncertainties are in t CO2e; variances and covariances are squared units. Retain shared-source dependence and a valid covariance matrix.",
+    "es": "B, P y L en esta identidad de varianza denotan estimadores de línea base, proyecto y fugas, no reserva B_t. Incertidumbres estándar en t CO2e; varianzas y covarianzas en unidades al cuadrado. Conservar dependencia compartida y matriz válida.",
+    "reference": "F-U01; M05.1; M05.2",
+    "location": "Qualified uncertainty calculation / cálculo calificado de incertidumbre; ExAnte!J:L; ExPost!J:L",
+    "units": "t CO2e; (t CO2e)^2",
+    "reference_en": "F-U01; M05.1; M05.2",
+    "location_en": "Qualified uncertainty calculation; ExAnte!J:L; ExPost!J:L",
+    "reference_es": "F-U01; M05.1; M05.2",
+    "location_es": "Cálculo calificado de incertidumbre; ExAnte!J:L; ExPost!J:L"
+  }
+}

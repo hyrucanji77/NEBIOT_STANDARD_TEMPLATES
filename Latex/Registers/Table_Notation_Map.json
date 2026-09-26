@@ -1,0 +1,1458 @@
+[
+  {
+    "stage": "NIP",
+    "number": 4,
+    "id": "NIP-T04",
+    "key": "AREA",
+    "en_title": "Territorial identification",
+    "es_title": "Identificación territorial",
+    "en_headers": [
+      "Location / ecosystem",
+      "Provisional area and unit",
+      "Boundary ID / date / limitation"
+    ],
+    "es_headers": [
+      "Ubicación / ecosistema",
+      "Área provisional y unidad",
+      "ID / fecha / limitación del límite"
+    ]
+  },
+  {
+    "stage": "NIP",
+    "number": 6,
+    "id": "NIP-T06",
+    "key": "DATA",
+    "en_title": "Evidence inventory",
+    "es_title": "Inventario de evidencia",
+    "en_headers": [
+      "Evidence ID / version",
+      "Observation date / support",
+      "Purpose, limitations and access"
+    ],
+    "es_headers": [
+      "ID / versión de evidencia",
+      "Fecha / ámbito de observación",
+      "Finalidad, limitaciones y acceso"
+    ]
+  },
+  {
+    "stage": "NIP",
+    "number": 7,
+    "id": "NIP-T07",
+    "key": "DATA",
+    "en_title": "Candidate modules and evidence routes",
+    "es_title": "Módulos y rutas de evidencia candidatos",
+    "en_headers": [
+      "Method / intended attribute",
+      "Candidate evidence route",
+      "Applicability gap / next check"
+    ],
+    "es_headers": [
+      "Método / atributo previsto",
+      "Ruta de evidencia candidata",
+      "Vacío de aplicabilidad / verificación"
+    ]
+  },
+  {
+    "stage": "NIP",
+    "number": 10,
+    "id": "NIP-T10",
+    "key": "DATA",
+    "en_title": "Indicative quantities, only where supported",
+    "es_title": "Cantidades indicativas, solo con sustento",
+    "en_headers": [
+      "Attribute / stock or change",
+      "Range, unit and period",
+      "Source, assumptions and uncertainty"
+    ],
+    "es_headers": [
+      "Atributo / existencia o cambio",
+      "Rango, unidad y período",
+      "Fuente, supuestos e incertidumbre"
+    ]
+  },
+  {
+    "stage": "NIP",
+    "number": 11,
+    "id": "NIP-T11",
+    "key": "BUDGET",
+    "en_title": "Proposed prefeasibility work",
+    "es_title": "Trabajo propuesto de prefactibilidad",
+    "en_headers": [
+      "Question / investigation",
+      "Deliverable and responsible party",
+      "Resources / timing / dependency"
+    ],
+    "es_headers": [
+      "Pregunta / investigación",
+      "Producto y responsable",
+      "Recursos / plazo / dependencia"
+    ]
+  },
+  {
+    "stage": "NIP",
+    "number": 16,
+    "id": "NIP-T16",
+    "key": "DATA",
+    "en_title": "Account attachment register",
+    "es_title": "Registro de anexos de cuentas",
+    "en_headers": [
+      "Product / applicable scope",
+      "Version, workbook and evidence location",
+      "Status / reviewer / unresolved restriction"
+    ],
+    "es_headers": [
+      "Producto / alcance aplicable",
+      "Versión, libro y ubicación de evidencia",
+      "Estado / revisor / restricción pendiente"
+    ]
+  },
+  {
+    "stage": "NIP",
+    "number": 17,
+    "id": "NIP-T17",
+    "key": "MIGRATION",
+    "en_title": "Required reconciliation",
+    "es_title": "Conciliación requerida",
+    "en_headers": [
+      "Dimension / original record",
+      "Receiving or monitored treatment",
+      "Evidence and decision reference"
+    ],
+    "es_headers": [
+      "Dimensión / registro original",
+      "Tratamiento receptor o monitoreado",
+      "Evidencia y referencia decisoria"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 5,
+    "id": "PREFEASIBILITY-T05",
+    "key": "AREA",
+    "en_title": "Spatial-data passport",
+    "es_title": "Ficha de datos espaciales",
+    "en_headers": [
+      "Product / release / band",
+      "Units, support and observation dates",
+      "Processing, rights and applicability"
+    ],
+    "es_headers": [
+      "Producto / versión / banda",
+      "Unidades, ámbito y fechas",
+      "Procesamiento, derechos y aplicabilidad"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 7,
+    "id": "PREFEASIBILITY-T07",
+    "key": "DATA",
+    "en_title": "Method and evidence-route comparison",
+    "es_title": "Comparación de métodos y rutas de evidencia",
+    "en_headers": [
+      "Module / candidate route A, B or C",
+      "Evidence retained or required",
+      "Tests, limitations and resources"
+    ],
+    "es_headers": [
+      "Módulo / ruta A, B o C candidata",
+      "Evidencia conservada o requerida",
+      "Pruebas, limitaciones y recursos"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 8,
+    "id": "PREFEASIBILITY-T08",
+    "key": "SAMPLE",
+    "en_title": "Feasibility field and laboratory plan",
+    "es_title": "Plan de campo y laboratorio para factibilidad",
+    "en_headers": [
+      "Variable / population / stratum",
+      "Sampling or qualified reuse plan",
+      "Quality controls / independent test"
+    ],
+    "es_headers": [
+      "Variable / población / estrato",
+      "Muestreo o reutilización calificada",
+      "Controles / prueba independiente"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 9,
+    "id": "PREFEASIBILITY-T09",
+    "key": "NET",
+    "en_title": "Scenario account",
+    "es_title": "Cuenta de escenarios",
+    "en_headers": [
+      "Component / equation ID",
+      "Value or range, unit and period",
+      "Evidence, assumptions and status"
+    ],
+    "es_headers": [
+      "Componente / ID de ecuación",
+      "Valor o rango, unidad y período",
+      "Evidencia, supuestos y estado"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 10,
+    "id": "PREFEASIBILITY-T10",
+    "key": "UNC",
+    "en_title": "Sensitivity and uncertainty drivers",
+    "es_title": "Factores de sensibilidad e incertidumbre",
+    "en_headers": [
+      "Input or structural assumption",
+      "Supported alternative / effect",
+      "Required evidence / consequence"
+    ],
+    "es_headers": [
+      "Entrada o supuesto estructural",
+      "Alternativa sustentada / efecto",
+      "Evidencia requerida / consecuencia"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 13,
+    "id": "PREFEASIBILITY-T13",
+    "key": "RESERVE",
+    "en_title": "Preliminary risk register",
+    "es_title": "Registro preliminar de riesgos",
+    "en_headers": [
+      "Risk / exposed scope",
+      "Evidence and plausible consequence",
+      "Proposed control / responsible entity"
+    ],
+    "es_headers": [
+      "Riesgo / ámbito expuesto",
+      "Evidencia y consecuencia plausible",
+      "Control propuesto / responsable"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 14,
+    "id": "PREFEASIBILITY-T14",
+    "key": "BUDGET",
+    "en_title": "Resource and cost assumptions",
+    "es_title": "Supuestos de recursos y costos",
+    "en_headers": [
+      "Task / cost category",
+      "Amount, currency, date and basis",
+      "Funding status / sensitivity"
+    ],
+    "es_headers": [
+      "Tarea / categoría de costo",
+      "Monto, moneda, fecha y base",
+      "Financiación / sensibilidad"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 20,
+    "id": "PREFEASIBILITY-T20",
+    "key": "DATA",
+    "en_title": "Account attachment register",
+    "es_title": "Registro de anexos de cuentas",
+    "en_headers": [
+      "Product / applicable scope",
+      "Version, workbook and evidence location",
+      "Status / reviewer / unresolved restriction"
+    ],
+    "es_headers": [
+      "Producto / alcance aplicable",
+      "Versión, libro y ubicación de evidencia",
+      "Estado / revisor / restricción pendiente"
+    ]
+  },
+  {
+    "stage": "Prefeasibility",
+    "number": 21,
+    "id": "PREFEASIBILITY-T21",
+    "key": "MIGRATION",
+    "en_title": "Required reconciliation",
+    "es_title": "Conciliación requerida",
+    "en_headers": [
+      "Dimension / original record",
+      "Receiving or monitored treatment",
+      "Evidence and decision reference"
+    ],
+    "es_headers": [
+      "Dimensión / registro original",
+      "Tratamiento receptor o monitoreado",
+      "Evidencia y referencia decisoria"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 6,
+    "id": "FEASIBILITY-T06",
+    "key": "AREA",
+    "en_title": "Area and strata reconciliation",
+    "es_title": "Conciliación de áreas y estratos",
+    "en_headers": [
+      "Domain / stratum / mask",
+      "Area, unit and boundary version",
+      "Overlap, exclusions and evidence"
+    ],
+    "es_headers": [
+      "Dominio / estrato / máscara",
+      "Área, unidad y versión del límite",
+      "Traslapes, exclusiones y evidencia"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 7,
+    "id": "FEASIBILITY-T07",
+    "key": "SAMPLE",
+    "en_title": "Observed vegetation and sampling",
+    "es_title": "Vegetación observada y muestreo",
+    "en_headers": [
+      "Stratum / plot / observation set",
+      "Design, variables and quality controls",
+      "Evidence, coverage and limitations"
+    ],
+    "es_headers": [
+      "Estrato / parcela / observaciones",
+      "Diseño, variables y controles",
+      "Evidencia, cobertura y límites"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 8,
+    "id": "FEASIBILITY-T08",
+    "key": "DATA",
+    "en_title": "Model and implementation passport",
+    "es_title": "Ficha del modelo e implementación",
+    "en_headers": [
+      "Component / equation IDs",
+      "Version, parameters and provenance",
+      "Calibration / independent test"
+    ],
+    "es_headers": [
+      "Componente / ID de ecuaciones",
+      "Versión, parámetros y procedencia",
+      "Calibración / prueba independiente"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 9,
+    "id": "FEASIBILITY-T09",
+    "key": "DATA",
+    "en_title": "Pathway by stratum",
+    "es_title": "Ruta por estrato",
+    "en_headers": [
+      "Stratum / selected route A, B or C",
+      "Retained or new reference evidence",
+      "Applicability and independent checks"
+    ],
+    "es_headers": [
+      "Estrato / ruta A, B o C",
+      "Referencia conservada o nueva",
+      "Aplicabilidad y pruebas independientes"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 10,
+    "id": "FEASIBILITY-T10",
+    "key": "MATERIAL",
+    "en_title": "Material-to-carbon and calibration record",
+    "es_title": "Registro de material a carbono y calibración",
+    "en_headers": [
+      "Input / compartment / equation",
+      "Units, convention and evidence",
+      "Calibration, uncertainty and test"
+    ],
+    "es_headers": [
+      "Entrada / compartimento / ecuación",
+      "Unidades, convención y evidencia",
+      "Calibración, incertidumbre y prueba"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 13,
+    "id": "FEASIBILITY-T13",
+    "key": "COMP",
+    "en_title": "Complete calculation chain",
+    "es_title": "Cadena completa de cálculo",
+    "en_headers": [
+      "Output / equation IDs",
+      "Inputs, support, units and source",
+      "Result, status and evidence"
+    ],
+    "es_headers": [
+      "Resultado / ID de ecuaciones",
+      "Entradas, ámbito, unidades y fuente",
+      "Resultado, estado y evidencia"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 14,
+    "id": "FEASIBILITY-T14",
+    "key": "UNC",
+    "en_title": "Uncertainty and sensitivity budget",
+    "es_title": "Presupuesto de incertidumbre y sensibilidad",
+    "en_headers": [
+      "Component / possible bias",
+      "Quantification, covariance or bound",
+      "Effect and acceptance evidence"
+    ],
+    "es_headers": [
+      "Componente / sesgo posible",
+      "Cuantificación, covarianza o límite",
+      "Efecto y evidencia de aceptación"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 15,
+    "id": "FEASIBILITY-T15",
+    "key": "LEAKAGE",
+    "en_title": "Leakage and residual-risk dossier",
+    "es_title": "Expediente de fugas y riesgo residual",
+    "en_headers": [
+      "Source / exposure / horizon",
+      "Evidence, model or stress treatment",
+      "Control, responsibility and residual loss"
+    ],
+    "es_headers": [
+      "Fuente / exposición / horizonte",
+      "Evidencia, modelo o estrés",
+      "Control, responsable y pérdida residual"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 16,
+    "id": "FEASIBILITY-T16",
+    "key": "SETTLE",
+    "en_title": "Liability and reserve profile",
+    "es_title": "Perfil de pasivos y reserva",
+    "en_headers": [
+      "Item",
+      "Rule and evidence",
+      "Authorization / unresolved decision"
+    ],
+    "es_headers": [
+      "Concepto",
+      "Regla y evidencia",
+      "Autorización / decisión pendiente"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 19,
+    "id": "FEASIBILITY-T19",
+    "key": "BUDGET",
+    "en_title": "Implementation and resources",
+    "es_title": "Implementación y recursos",
+    "en_headers": [
+      "Activity / milestone",
+      "Implementer / resource commitment",
+      "Schedule / constraint / evidence"
+    ],
+    "es_headers": [
+      "Actividad / hito",
+      "Ejecutor / compromiso de recursos",
+      "Cronograma / restricción / evidencia"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 20,
+    "id": "FEASIBILITY-T20",
+    "key": "DATA",
+    "en_title": "Monitoring variable register",
+    "es_title": "Registro de variables de monitoreo",
+    "en_headers": [
+      "Variable / equation / support",
+      "Method, frequency and responsible party",
+      "Calibration, quality control and gaps"
+    ],
+    "es_headers": [
+      "Variable / ecuación / ámbito",
+      "Método, frecuencia y responsable",
+      "Calibración, calidad y vacíos"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 27,
+    "id": "FEASIBILITY-T27",
+    "key": "DATA",
+    "en_title": "Account attachment register",
+    "es_title": "Registro de anexos de cuentas",
+    "en_headers": [
+      "Product / applicable scope",
+      "Version, workbook and evidence location",
+      "Status / reviewer / unresolved restriction"
+    ],
+    "es_headers": [
+      "Producto / alcance aplicable",
+      "Versión, libro y ubicación de evidencia",
+      "Estado / revisor / restricción pendiente"
+    ]
+  },
+  {
+    "stage": "Feasibility",
+    "number": 28,
+    "id": "FEASIBILITY-T28",
+    "key": "MIGRATION",
+    "en_title": "Required reconciliation",
+    "es_title": "Conciliación requerida",
+    "en_headers": [
+      "Dimension / original record",
+      "Receiving or monitored treatment",
+      "Evidence and decision reference"
+    ],
+    "es_headers": [
+      "Dimensión / registro original",
+      "Tratamiento receptor o monitoreado",
+      "Evidencia y referencia decisoria"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 7,
+    "id": "PD-T07",
+    "key": "AREA",
+    "en_title": "Boundaries and accounting domains",
+    "es_title": "Límites y dominios contables",
+    "en_headers": [
+      "Domain / stratum / eligible mask",
+      "Area, unit, version and date",
+      "Relationship, exclusions and evidence"
+    ],
+    "es_headers": [
+      "Dominio / estrato / máscara elegible",
+      "Área, unidad, versión y fecha",
+      "Relación, exclusiones y evidencia"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 9,
+    "id": "PD-T09",
+    "key": "OTHER",
+    "en_title": "Performance and decision indicators",
+    "es_title": "Indicadores de desempeño y decisión",
+    "en_headers": [
+      "Indicator / attribute",
+      "Evidence, unit and frequency",
+      "Responsible party / review trigger"
+    ],
+    "es_headers": [
+      "Indicador / atributo",
+      "Evidencia, unidad y frecuencia",
+      "Responsable / desencadenante"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 10,
+    "id": "PD-T10",
+    "key": "DATA",
+    "en_title": "Applicability and pathway register",
+    "es_title": "Registro de aplicabilidad y rutas",
+    "en_headers": [
+      "Module / stratum / route A, B or C",
+      "Inputs, domains and exclusions",
+      "Version, qualification and evidence"
+    ],
+    "es_headers": [
+      "Módulo / estrato / ruta A, B o C",
+      "Entradas, dominios y exclusiones",
+      "Versión, calificación y evidencia"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 15,
+    "id": "PD-T15",
+    "key": "MIGRATION",
+    "en_title": "Migration and historical obligations, where applicable",
+    "es_title": "Migración y obligaciones históricas, cuando aplique",
+    "en_headers": [
+      "Origin / method / record",
+      "Status, quantity and period",
+      "Transition and outstanding responsibility"
+    ],
+    "es_headers": [
+      "Origen / método / registro",
+      "Estado, cantidad y período",
+      "Transición y responsabilidad pendiente"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 16,
+    "id": "PD-T16",
+    "key": "COMP",
+    "en_title": "Calculation chain and input provenance",
+    "es_title": "Cadena de cálculo y procedencia",
+    "en_headers": [
+      "Step / equation IDs / output",
+      "Input IDs, units, period and support",
+      "Result, status and calculation location"
+    ],
+    "es_headers": [
+      "Paso / ecuaciones / resultado",
+      "ID, unidades, período y ámbito",
+      "Resultado, estado y ubicación de cálculo"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 17,
+    "id": "PD-T17",
+    "key": "NET",
+    "en_title": "Matched scenario and leakage accounts",
+    "es_title": "Cuentas comparables de escenarios y fugas",
+    "en_headers": [
+      "Account / gas / pool",
+      "Quantity, unit and period",
+      "Inclusions, exclusions and overlap control"
+    ],
+    "es_headers": [
+      "Cuenta / gas / reservorio",
+      "Cantidad, unidad y período",
+      "Inclusiones, exclusiones y control de doble conteo"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 18,
+    "id": "PD-T18",
+    "key": "UNC",
+    "en_title": "Uncertainty and materiality specification",
+    "es_title": "Especificación de incertidumbre y materialidad",
+    "en_headers": [
+      "Component / potential error",
+      "Method, dependence and evidence",
+      "Criterion, adjustment and decision"
+    ],
+    "es_headers": [
+      "Componente / error posible",
+      "Método, dependencia y evidencia",
+      "Criterio, ajuste y decisión"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 19,
+    "id": "PD-T19",
+    "key": "SETTLE",
+    "en_title": "Liability and reserve design",
+    "es_title": "Diseño de pasivos y reserva",
+    "en_headers": [
+      "Account element",
+      "Applicable rule / evidence",
+      "Decision and unresolved condition"
+    ],
+    "es_headers": [
+      "Elemento contable",
+      "Regla / evidencia aplicable",
+      "Decisión y condición pendiente"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 21,
+    "id": "PD-T21",
+    "key": "OTHER",
+    "en_title": "Attribute and outcome register",
+    "es_title": "Registro de atributos y resultados",
+    "en_headers": [
+      "Attribute / ecological meaning",
+      "Indicator, unit, boundary and period",
+      "Method, evidence status and limitations"
+    ],
+    "es_headers": [
+      "Atributo / significado ecológico",
+      "Indicador, unidad, límite y período",
+      "Método, estado de evidencia y límites"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 22,
+    "id": "PD-T22",
+    "key": "DENOM",
+    "en_title": "Requested category specification, if applicable",
+    "es_title": "Especificación de categoría solicitada, si aplica",
+    "en_headers": [
+      "Category / permitted claim",
+      "Denomination and authorization record",
+      "Uncertainty, durability and status controls"
+    ],
+    "es_headers": [
+      "Categoría / afirmación permitida",
+      "Denominación y registro de autorización",
+      "Incertidumbre, durabilidad y estados"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 24,
+    "id": "PD-T24",
+    "key": "BUDGET",
+    "en_title": "Resource and financial feasibility",
+    "es_title": "Factibilidad de recursos y financiera",
+    "en_headers": [
+      "Cost / resource commitment",
+      "Amount, currency, timing and source",
+      "Funding status, sensitivity and contingency"
+    ],
+    "es_headers": [
+      "Costo / compromiso de recursos",
+      "Monto, moneda, plazo y fuente",
+      "Financiación, sensibilidad y contingencia"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 25,
+    "id": "PD-T25",
+    "key": "DATA",
+    "en_title": "Variable-to-equation monitoring matrix",
+    "es_title": "Matriz de monitoreo variable-ecuación",
+    "en_headers": [
+      "Variable / equation / spatial support",
+      "Method, sampling, frequency and owner",
+      "Calibration, quality control and missing data"
+    ],
+    "es_headers": [
+      "Variable / ecuación / ámbito espacial",
+      "Método, muestreo, frecuencia y responsable",
+      "Calibración, calidad y datos faltantes"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 26,
+    "id": "PD-T26",
+    "key": "DATA",
+    "en_title": "AP-01–AP-12 decision register",
+    "es_title": "Registro de decisiones AP-01–AP-12",
+    "en_headers": [
+      "ID / decision topic",
+      "Rule / value / evidence / approval or affected gate"
+    ],
+    "es_headers": [
+      "ID / asunto decisorio",
+      "Regla / valor / evidencia / aprobación o puerta afectada"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 32,
+    "id": "PD-T32",
+    "key": "DATA",
+    "en_title": "Account attachment register",
+    "es_title": "Registro de anexos de cuentas",
+    "en_headers": [
+      "Product / applicable scope",
+      "Version, workbook and evidence location",
+      "Status / reviewer / unresolved restriction"
+    ],
+    "es_headers": [
+      "Producto / alcance aplicable",
+      "Versión, libro y ubicación de evidencia",
+      "Estado / revisor / restricción pendiente"
+    ]
+  },
+  {
+    "stage": "PD",
+    "number": 33,
+    "id": "PD-T33",
+    "key": "MIGRATION",
+    "en_title": "Required reconciliation",
+    "es_title": "Conciliación requerida",
+    "en_headers": [
+      "Dimension / original record",
+      "Receiving or monitored treatment",
+      "Evidence and decision reference"
+    ],
+    "es_headers": [
+      "Dimensión / registro original",
+      "Tratamiento receptor o monitoreado",
+      "Evidencia y referencia decisoria"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 3,
+    "id": "EXANTE-T03",
+    "key": "DATA",
+    "en_title": "Scope and status",
+    "es_title": "Alcance y estado",
+    "en_headers": [
+      "Attribute / activity / area",
+      "Period and model version",
+      "Intended use and restrictions"
+    ],
+    "es_headers": [
+      "Atributo / actividad / área",
+      "Período y versión del modelo",
+      "Uso previsto y restricciones"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 4,
+    "id": "EXANTE-T04",
+    "key": "FACTOR",
+    "en_title": "Data and parameter passport",
+    "es_title": "Pasaporte de datos y parámetros",
+    "en_headers": [
+      "Variable / source / evidence ID",
+      "Band, unit, date and spatial support",
+      "Pathway, uncertainty and permitted use"
+    ],
+    "es_headers": [
+      "Variable / fuente / ID de evidencia",
+      "Banda, unidad, fecha y soporte espacial",
+      "Ruta, incertidumbre y uso permitido"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 5,
+    "id": "EXANTE-T05",
+    "key": "DATA",
+    "en_title": "Evidence lineage",
+    "es_title": "Trazabilidad de la evidencia",
+    "en_headers": [
+      "Input / original location",
+      "Observed, modeled or assumed",
+      "Selected use / remaining restriction"
+    ],
+    "es_headers": [
+      "Entrada / ubicación original",
+      "Observado, modelado o supuesto",
+      "Uso seleccionado / restricción pendiente"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 6,
+    "id": "EXANTE-T06",
+    "key": "DATA",
+    "en_title": "Disjoint activity scenario",
+    "es_title": "Escenario de actividades no duplicadas",
+    "en_headers": [
+      "Driver / stratum / transition",
+      "Period area or activity and evidence",
+      "Gross loss, recovery or other process"
+    ],
+    "es_headers": [
+      "Impulsor / estrato / transición",
+      "Área o actividad por período y evidencia",
+      "Pérdida bruta, recuperación u otro proceso"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 7,
+    "id": "EXANTE-T07",
+    "key": "PROJECT",
+    "en_title": "Scenario assumptions",
+    "es_title": "Supuestos del escenario",
+    "en_headers": [
+      "Activity / causal mechanism",
+      "Avoided or residual fraction and evidence",
+      "Implementation emissions / timing"
+    ],
+    "es_headers": [
+      "Actividad / mecanismo causal",
+      "Fracción evitada o residual y evidencia",
+      "Emisiones de implementación / cronología"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 8,
+    "id": "EXANTE-T08",
+    "key": "LEAKAGE",
+    "en_title": "Leakage assessment",
+    "es_title": "Evaluación de fugas",
+    "en_headers": [
+      "Mechanism / receiving area",
+      "Without-project activity and projected change",
+      "Attribution factor, evidence and quantity"
+    ],
+    "es_headers": [
+      "Mecanismo / área receptora",
+      "Actividad sin proyecto y cambio proyectado",
+      "Factor de atribución, evidencia y cantidad"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 9,
+    "id": "EXANTE-T09",
+    "key": "COMP",
+    "en_title": "Omitted or zero components",
+    "es_title": "Componentes omitidos o nulos",
+    "en_headers": [
+      "Component",
+      "Basis for exclusion or explicit zero",
+      "Evidence / reviewer / sensitivity"
+    ],
+    "es_headers": [
+      "Componente",
+      "Base de exclusión o cero explícito",
+      "Evidencia / revisor / sensibilidad"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 10,
+    "id": "EXANTE-T10",
+    "key": "FACTOR",
+    "en_title": "Pool and factor account",
+    "es_title": "Cuenta de reservorios y factores",
+    "en_headers": [
+      "Pool / stratum / pre- and post-state",
+      "Carbon or gas factor, unit and source",
+      "Transfer, release timing and exclusions"
+    ],
+    "es_headers": [
+      "Reservorio / estrato / estados inicial y final",
+      "Factor de carbono o gas, unidad y fuente",
+      "Transferencia, liberación y exclusiones"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 11,
+    "id": "EXANTE-T11",
+    "key": "COHORT",
+    "en_title": "Computation record",
+    "es_title": "Registro de cálculo",
+    "en_headers": [
+      "Equation / input references",
+      "Intermediate output and unit",
+      "Quality control / boundary case"
+    ],
+    "es_headers": [
+      "Ecuación / referencias de entradas",
+      "Resultado intermedio y unidad",
+      "Control de calidad / caso límite"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 12,
+    "id": "EXANTE-T12",
+    "key": "NET",
+    "en_title": "Signed environmental account",
+    "es_title": "Cuenta ambiental con signo",
+    "en_headers": [
+      "Period / compatible scope",
+      "Baseline / project / leakage (t CO2e)",
+      "Net result and exact calculation reference"
+    ],
+    "es_headers": [
+      "Período / alcance compatible",
+      "Línea base / proyecto / fugas (t CO2e)",
+      "Resultado neto y referencia exacta del cálculo"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 13,
+    "id": "EXANTE-T13",
+    "key": "SETTLE",
+    "en_title": "Conservative planning account",
+    "es_title": "Cuenta conservadora de planificación",
+    "en_headers": [
+      "Period / lower-bound rule",
+      "Liability assumption / reserve base / contribution",
+      "Available mass and conditional denomination"
+    ],
+    "es_headers": [
+      "Período / regla de límite inferior",
+      "Pasivo supuesto / base de reserva / aporte",
+      "Masa disponible y denominación condicional"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 14,
+    "id": "EXANTE-T14",
+    "key": "UNC",
+    "en_title": "Quantitative treatment",
+    "es_title": "Tratamiento cuantitativo",
+    "en_headers": [
+      "Component / dependence",
+      "Uncertainty or supported bound",
+      "Effect on complete net account"
+    ],
+    "es_headers": [
+      "Componente / dependencia",
+      "Incertidumbre o límite sustentado",
+      "Efecto sobre la cuenta neta completa"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 15,
+    "id": "EXANTE-T15",
+    "key": "DATA",
+    "en_title": "Scenario sensitivity and decision",
+    "es_title": "Sensibilidad y decisión",
+    "en_headers": [
+      "Alternative / changed assumption",
+      "Result range and joint feasibility",
+      "Decision consequence / further evidence"
+    ],
+    "es_headers": [
+      "Alternativa / supuesto cambiado",
+      "Rango de resultados y factibilidad conjunta",
+      "Consecuencia / evidencia adicional"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 16,
+    "id": "EXANTE-T16",
+    "key": "MIGRATION",
+    "en_title": "Comparison package",
+    "es_title": "Paquete comparativo",
+    "en_headers": [
+      "Original record and status",
+      "Matched record / proposed treatment",
+      "Reconciliation annex and open decisions"
+    ],
+    "es_headers": [
+      "Registro original y estado",
+      "Registro comparable / tratamiento propuesto",
+      "Anexo de conciliación y decisiones abiertas"
+    ]
+  },
+  {
+    "stage": "ExAnte",
+    "number": 17,
+    "id": "EXANTE-T17",
+    "key": "OTHER",
+    "en_title": "Separate outcome forecasts",
+    "es_title": "Proyecciones de resultados separados",
+    "en_headers": [
+      "Attribute / causal pathway",
+      "Unit / reference / expected timing",
+      "Evidence, assessment route and claim limit"
+    ],
+    "es_headers": [
+      "Atributo / vía causal",
+      "Unidad / referencia / cronología prevista",
+      "Evidencia, evaluación y límite de declaración"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 4,
+    "id": "EXPOST-T04",
+    "key": "DATA",
+    "en_title": "Observation register",
+    "es_title": "Registro de observaciones",
+    "en_headers": [
+      "Variable / location / date",
+      "Method, value, unit and source ID",
+      "Quality control, missing data and uncertainty"
+    ],
+    "es_headers": [
+      "Variable / lugar / fecha",
+      "Método, valor, unidad e ID de fuente",
+      "Calidad, datos faltantes e incertidumbre"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 5,
+    "id": "EXPOST-T05",
+    "key": "DATA",
+    "en_title": "Deviations from the monitoring plan",
+    "es_title": "Desviaciones del plan de monitoreo",
+    "en_headers": [
+      "Planned procedure",
+      "Actual implementation and reason",
+      "Effect / remedy / approval"
+    ],
+    "es_headers": [
+      "Procedimiento previsto",
+      "Ejecución real y motivo",
+      "Efecto / reparación / aprobación"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 6,
+    "id": "EXPOST-T06",
+    "key": "BASELINE",
+    "en_title": "Period baseline components",
+    "es_title": "Componentes de línea base por período",
+    "en_headers": [
+      "Driver / stratum / pool",
+      "Period quantity and calculation evidence",
+      "Retained or changed / approval reference"
+    ],
+    "es_headers": [
+      "Impulsor / estrato / reservorio",
+      "Cantidad por período y evidencia de cálculo",
+      "Conservado o modificado / aprobación"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 7,
+    "id": "EXPOST-T07",
+    "key": "GASES",
+    "en_title": "Project emissions and removals",
+    "es_title": "Emisiones y remociones del proyecto",
+    "en_headers": [
+      "Activity / pool / gas",
+      "Observed input and modeled conversion",
+      "Signed period quantity / evidence"
+    ],
+    "es_headers": [
+      "Actividad / reservorio / gas",
+      "Entrada observada y conversión modelada",
+      "Cantidad con signo / evidencia"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 9,
+    "id": "EXPOST-T09",
+    "key": "LEAKAGE",
+    "en_title": "Leakage reconciliation",
+    "es_title": "Conciliación de fugas",
+    "en_headers": [
+      "Receiving area / mechanism",
+      "Observed and without-project activity",
+      "Attributable difference / model / evidence"
+    ],
+    "es_headers": [
+      "Área receptora / mecanismo",
+      "Actividad observada y sin proyecto",
+      "Diferencia atribuible / modelo / evidencia"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 10,
+    "id": "EXPOST-T10",
+    "key": "UNC",
+    "en_title": "Remaining uncertainty",
+    "es_title": "Incertidumbre remanente",
+    "en_headers": [
+      "Source / limitation",
+      "Bound or quantified uncertainty",
+      "Net-account effect / follow-up"
+    ],
+    "es_headers": [
+      "Fuente / limitación",
+      "Límite o incertidumbre cuantificada",
+      "Efecto neto / seguimiento"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 11,
+    "id": "EXPOST-T11",
+    "key": "COHORT",
+    "en_title": "Cohort and pool continuation",
+    "es_title": "Continuidad de cohortes y reservorios",
+    "en_headers": [
+      "Pool / event / original interval",
+      "Opening stock, release and retained balance",
+      "No-double-counting check / evidence"
+    ],
+    "es_headers": [
+      "Reservorio / evento / intervalo original",
+      "Existencia inicial, liberación y saldo retenido",
+      "Control de duplicación / evidencia"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 12,
+    "id": "EXPOST-T12",
+    "key": "NET",
+    "en_title": "Net environmental result",
+    "es_title": "Resultado ambiental neto",
+    "en_headers": [
+      "Period / scope",
+      "Baseline / project / leakage (t CO2e)",
+      "Signed net result / workbook location"
+    ],
+    "es_headers": [
+      "Período / alcance",
+      "Línea base / proyecto / fugas (t CO2e)",
+      "Resultado neto con signo / ubicación en libro"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 13,
+    "id": "EXPOST-T13",
+    "key": "BOUND",
+    "en_title": "Conservativeness and materiality",
+    "es_title": "Conservadurismo y materialidad",
+    "en_headers": [
+      "Component / dependence / bias",
+      "Approved deduction or supported bound",
+      "Q\\_low and separate materiality findings"
+    ],
+    "es_headers": [
+      "Componente / dependencia / sesgo",
+      "Deducción aprobada o límite sustentado",
+      "Q\\_low y hallazgos de materialidad separados"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 14,
+    "id": "EXPOST-T14",
+    "key": "SETTLE",
+    "en_title": "Candidate allocation versus executed settlement",
+    "es_title": "Asignación candidata frente a liquidación ejecutada",
+    "en_headers": [
+      "Opening liability / settlement candidate",
+      "Actual settlement and execution evidence",
+      "Post-liability base / new reserve / available mass"
+    ],
+    "es_headers": [
+      "Pasivo inicial / liquidación candidata",
+      "Liquidación real y evidencia de ejecución",
+      "Base posterior / aporte de reserva / masa disponible"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 15,
+    "id": "EXPOST-T15",
+    "key": "CARRY",
+    "en_title": "Deficit and closing liability",
+    "es_title": "Déficit y pasivo de cierre",
+    "en_headers": [
+      "Negative result / applicable profile",
+      "Prior recognized overlap / executed cancellation",
+      "New deficit, closing balance and next-period link"
+    ],
+    "es_headers": [
+      "Resultado negativo / perfil aplicable",
+      "Superposición ya reconocida / cancelación ejecutada",
+      "Déficit nuevo, saldo final y enlace al siguiente período"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 16,
+    "id": "EXPOST-T16",
+    "key": "COMPARE",
+    "en_title": "Matched comparison",
+    "es_title": "Comparación equivalente",
+    "en_headers": [
+      "Period / same scope / same unit",
+      "Frozen ex-ante / reported ex-post",
+      "Difference and component explanation"
+    ],
+    "es_headers": [
+      "Período / mismo alcance / misma unidad",
+      "Ex ante fijado / ex post reportado",
+      "Diferencia y explicación por componente"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 17,
+    "id": "EXPOST-T17",
+    "key": "ALLOC",
+    "en_title": "Subperiod distributions",
+    "es_title": "Distribuciones a subperíodos",
+    "en_headers": [
+      "Parent period / verified or reported status",
+      "Allocation weights and justification",
+      "Closure / no overlapping claims"
+    ],
+    "es_headers": [
+      "Período matriz / estado verificado o reportado",
+      "Ponderaciones y justificación",
+      "Cierre / declaraciones no superpuestas"
+    ]
+  },
+  {
+    "stage": "ExPost",
+    "number": 19,
+    "id": "EXPOST-T19",
+    "key": "MIGRATION",
+    "en_title": "Origin and previous status",
+    "es_title": "Origen y estado previo",
+    "en_headers": [
+      "Outcome / original program / period",
+      "Issued, used, retired, canceled or unissued record",
+      "Claim intersection / liability / decision"
+    ],
+    "es_headers": [
+      "Resultado / programa original / período",
+      "Registro emitido, usado, retirado, cancelado o no emitido",
+      "Intersección / pasivo / decisión"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 5,
+    "id": "MIGRATION-RECONCILIATION-T05",
+    "key": "DATA",
+    "en_title": "Compatibility matrix",
+    "es_title": "Matriz de compatibilidad",
+    "en_headers": [
+      "Dimension / original definition",
+      "Receiving definition / difference",
+      "Evidence / correction / accepted scope"
+    ],
+    "es_headers": [
+      "Dimensión / definición original",
+      "Definición receptora / diferencia",
+      "Evidencia / corrección / alcance aceptado"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 6,
+    "id": "MIGRATION-RECONCILIATION-T06",
+    "key": "DATA",
+    "en_title": "Qualified reuse decision",
+    "es_title": "Decisión de reutilización calificada",
+    "en_headers": [
+      "Input / pathway A, B or C",
+      "Retain, supplement, replace or exclude",
+      "Evidence, reviewer and use limitation"
+    ],
+    "es_headers": [
+      "Entrada / ruta A, B o C",
+      "Conservar, complementar, sustituir o excluir",
+      "Evidencia, revisor y límite de uso"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 7,
+    "id": "MIGRATION-RECONCILIATION-T07",
+    "key": "COMP",
+    "en_title": "Calculation lineage",
+    "es_title": "Trazabilidad del cálculo",
+    "en_headers": [
+      "Original sheet / cells / equation",
+      "Meaning, unit, status and dependencies",
+      "NEBIOT equation / treatment / justification"
+    ],
+    "es_headers": [
+      "Hoja / celdas / ecuación original",
+      "Significado, unidad, estado y dependencias",
+      "Ecuación NEBIOT / tratamiento / justificación"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 8,
+    "id": "MIGRATION-RECONCILIATION-T08",
+    "key": "MIGRATION",
+    "en_title": "Matched reconciliation",
+    "es_title": "Conciliación equivalente",
+    "en_headers": [
+      "Period / quantity / unit",
+      "Original / harmonized original / NEBIOT",
+      "Difference by basis and method / evidence"
+    ],
+    "es_headers": [
+      "Período / cantidad / unidad",
+      "Original / original armonizado / NEBIOT",
+      "Diferencia por base y método / evidencia"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 9,
+    "id": "MIGRATION-RECONCILIATION-T09",
+    "key": "COMPARE",
+    "en_title": "Unreconciled difference",
+    "es_title": "Diferencia no conciliada",
+    "en_headers": [
+      "Issue / impact / affected interval",
+      "Required evidence or recalculation",
+      "Responsible party / decision consequence"
+    ],
+    "es_headers": [
+      "Asunto / impacto / intervalo afectado",
+      "Evidencia o recálculo requerido",
+      "Responsable / consecuencia decisoria"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 10,
+    "id": "MIGRATION-RECONCILIATION-T10",
+    "key": "MIGRATION",
+    "en_title": "Original outcome status",
+    "es_title": "Estado del resultado original",
+    "en_headers": [
+      "Outcome / period / serial or reference",
+      "Issued / used / retired / canceled / unissued",
+      "Compatible quantity and authoritative evidence"
+    ],
+    "es_headers": [
+      "Resultado / período / serial o referencia",
+      "Emitido / usado / retirado / cancelado / no emitido",
+      "Cantidad compatible y evidencia autorizada"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 11,
+    "id": "MIGRATION-RECONCILIATION-T11",
+    "key": "CARRY",
+    "en_title": "Continuing balance",
+    "es_title": "Saldo y responsabilidad continua",
+    "en_headers": [
+      "Liability, reserve or delayed release",
+      "Opening amount, custody and commitment",
+      "Receiving treatment / obligor / closing record"
+    ],
+    "es_headers": [
+      "Pasivo, reserva o liberación diferida",
+      "Cantidad inicial, custodia y compromiso",
+      "Tratamiento receptor / obligado / registro final"
+    ]
+  },
+  {
+    "stage": "Migration_Reconciliation",
+    "number": 12,
+    "id": "MIGRATION-RECONCILIATION-T12",
+    "key": "COMPARE",
+    "en_title": "Status-separated comparison",
+    "es_title": "Comparación con estados separados",
+    "en_headers": [
+      "Original ex-ante version and vintage",
+      "Ex-post record and observation support",
+      "OVV opinion scope / receiving decision"
+    ],
+    "es_headers": [
+      "Versión ex ante y fecha original",
+      "Registro ex post y soporte de observación",
+      "Alcance OVV / decisión receptora"
+    ]
+  }
+]
